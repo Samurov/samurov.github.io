@@ -1,5 +1,5 @@
 body {
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	padding: 0px;
 	margin: 0px;
@@ -26,7 +26,7 @@ img {
 }
 
 h1 {
-	font-family: Philosopher;
+	font-family: 'Philosopher', sans-serif;
 	font-size: 60px;
 	margin: 0px;
 }
@@ -115,7 +115,7 @@ h1 {
 }
 
 h2 {
-	font-family: Philosopher;
+	font-family: 'Philosopher', sans-serif;
 	font-size: 39px;
 	margin-top: 0px;
 	margin-bottom: 0px;
