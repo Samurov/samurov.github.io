@@ -1,0 +1,456 @@
+body {
+	font-family: Montserrat;
+	font-size: 17px;
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	height: 70px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	z-index:1;
+
+}
+
+
+article {
+	width: 1170px;
+	margin: 0px auto 0px auto;
+}
+
+img {
+	user-select: none;
+}
+
+h1 {
+	font-family: Philosopher;
+	font-size: 60px;
+	margin: 0px;
+}
+
+#first {
+	background-color: #f8f4ea;
+	height: 664px;
+}
+
+
+
+.logo {
+	margin: 10px auto auto 0px;
+	float: left;
+}
+
+#menu {
+	padding-top: 25px;
+	text-align: right;
+}
+
+.r12 {
+	margin-right: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.r12:hover {
+	margin-right: 30px;
+	text-decoration: none;
+	color: #ff4848;
+}
+
+.r12:nth-child(4) {
+	margin-right: 0px;
+}
+
+.buttons {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#bottom1 {
+	padding: 21px 57px;
+	background: linear-gradient(-83deg, #c32c2c, #f14c4c); 
+	color: white;
+	user-select: none;
+	border-radius: 30px;
+	text-decoration: none;
+
+
+}
+
+#bottom2 {
+	border: 1px solid black;
+	padding: 21px 58px;
+	margin-left: 30px;
+	color: black;
+	user-select: none;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+
+.block1 {
+	border: px solid black;
+	margin-top: 170px;
+	float:left;
+}
+
+#block2 {
+	padding-top: 30px;
+	padding-left: 650px;
+	border: px solid black;
+	user-select: none;
+}
+
+#imgb {
+	width: 590px;
+	height: 590px;
+}
+
+#second {
+	height: 500px;
+	padding-top: 100px;
+}
+
+h2 {
+	font-family: Philosopher;
+	font-size: 39px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: px solid black;
+}
+
+.desc {
+	width: 600px;
+	float: left;
+	border: 0px solid black;
+	line-height: 1.6em;
+	padding-top: 40px;
+}
+
+.img {
+	float: right;
+	margin-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: px solid black;
+	user-select: none;
+}
+
+#third {
+	background: url(../image/background2.png) repeat #f8f4ea;
+	background-size: 30%;
+	height: 1316px;
+	padding-top: 100px;
+}
+
+#firstb {
+	float: left;
+	margin-left: 100px;
+	margin-top: 56px;
+	border: px solid black;
+}
+
+#secondb {
+	width: 428px;
+	float: right;
+	margin-right: 44px;
+	margin-top: 150px;
+	border: px solid black;
+}
+
+.titleb {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 18px;
+	border: px solid black;
+}
+
+.textb {
+	width: 428px;
+	line-height: 1.6em;
+	text-align: center;
+	border: px solid black;
+}
+
+.oneb {
+	border: px solid black;
+}
+
+.clear {
+	clear: both;
+	display: table;
+	margin: 0px;
+}
+
+#firstb2 {
+	float: right;
+	margin-right: 87px;
+	margin-top: 56px;
+	border: px solid black;
+}
+
+#secondb2 {
+	width: 530px;
+	float: left;
+	margin-right: 44px;
+	margin-top: 150px;
+	border: px solid black;
+}
+
+.textb2 {
+	width: 530px;
+	line-height: 1.6em;
+	text-align: center;
+	border: px solid black;
+}
+
+.textb3 {
+	width: 407px;
+	line-height: 1.6em;
+	text-align: center;
+	border: px solid black;
+}
+
+#secondb3 {
+	width: 407px;
+	float: right;
+	margin-right: 47px;
+	margin-top: 150px;
+	border: px solid black;
+}
+
+#fourth {
+	padding-top: 100px;
+	height: 700px;
+}
+
+.box {
+	margin-top: 56px;
+	width: 500px;
+	height: 450px;
+	border: 0px solid black;
+	border-radius: 12px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	float: left;
+}
+
+.box:hover {
+	margin-top: 56px;
+	width: 500px;
+	height: 450px;
+	border: 0px solid black;
+	border-radius: 12px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	float: left;
+}
+
+.box2 {
+	margin-top: 56px;
+	width: 500px;
+	height: 450px;
+	border: 0px solid black;
+	border-radius: 12px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	float: right;
+}
+
+.boxletter {
+	margin: 25px;
+}
+
+.boxtitle {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.boxtext {
+	margin-top: 15px;
+	line-height: 1.6em;
+}
+
+.boxprice {
+	margin-top: 30px;
+	float: left;
+}
+
+.boxmore a {
+	margin-top: 30px;
+	float: right;
+	text-decoration: none;
+	color: black;
+}
+
+.boxmore a:hover {
+	margin-top: 30px;
+	float: right;
+	text-decoration: none;
+	color: #ff4848;
+}
+
+footer {
+	height: 530px;
+	background: #403e44;
+	padding-top: 100px;
+}
+
+.ftext {
+	margin-top: 42px;
+	width: 330px;
+	font-size: 16px;
+	color: #c3bcd0;
+	margin-bottom: 34px;
+	line-height: 1.6em;
+}
+
+
+
+ .sfbuttons {
+ 	float: left;
+	user-select: none;
+	border-radius: 30px;
+	background: #524d5b;
+	width: 59px;
+	height: 59px;
+	margin-right: 60px;
+	border: 1px solid black;
+	line-height: 1.6em;
+
+ }
+
+ .fbuttons a { 
+	color: #c3bcd0;	
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 30px;
+	display: inline-block;
+	background: #524d5b;
+	padding-top: 20px;
+ }
+
+ #jjj {
+
+ }
+
+ .d {
+ 	color: #c3bcd0;	
+	text-decoration: none;
+ 	background: #524d5b;
+ 	width: 60px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-right: 0px;
+ 	padding-left: 0px;
+ 	border-radius: 30px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	margin-right: 60px;
+ }
+
+.d:hover {
+ 	color: #ff4848;	
+	text-decoration: none;
+ 	background: #524d5b;
+ 	width: 60px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-right: 0px;
+ 	padding-left: 0px;
+ 	border-radius: 30px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	margin-right: 60px;
+ }
+
+ .d:nth-child(3) {
+ 	margin-right: 0px;
+ }
+
+ #bleft {
+ 	float: left;
+ }
+
+ .btitle {
+ 	color: #c3bcd0;
+ 	font-size: 19px;
+ 	font-weight: 500;
+ 	padding-top: 30px;
+ }
+
+.btext {
+	margin-top: 42px;
+}
+
+ .btext a {
+ 	font-size: 16px;
+ 	color: #c3bcd0;
+ 	line-height: 1.6em;
+ 	text-decoration: none;
+
+ }
+
+ .btext a:hover {
+ 	font-size: 16px;
+ 	color: #ff4848;
+ 	line-height: 1.6em;
+ 	text-decoration: none;
+
+ }
+
+ #bcenter {
+ 	padding-left: 195px;
+ 	float: left;
+ }
+
+ #bright {
+ 	float: left;
+ 	padding-left: 188px;	
+ }
+
+ .btext2 {
+ 	margin-top: 42px;
+	width: 177px;
+	font-size: 16px;
+	color: #c3bcd0;
+	margin-bottom: 25px;
+	line-height: 1.6em;
+ }
+
+  .btext3 {
+	width: 177px;
+	font-size: 16px;
+	color: #c3bcd0;
+	margin-bottom: 25px;
+	line-height: 1.6em;
+ }
+
+ #line {
+ 	height: 1px;
+ 	background: #37363b;
+ 	border: 0px solid black;
+ 	width: 100%;
+ 	margin-top: 74px;
+ }
+
+
+ #line2 {
+ 	height: 1px;
+ 	background: #4a484f;
+ 	border: 0px solid black;
+ 	width: 100%
+ }
+
+ .ftext2 {
+	margin-top: 44px;
+	font-size: 16px;
+	color: #c3bcd0;
+	line-height: 1.6em;
+	text-align: center;
+}
