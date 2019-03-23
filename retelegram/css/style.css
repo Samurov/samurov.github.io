@@ -1,0 +1,41 @@
+body {
+	background-color: #e0f1ff;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.two {
+	width: 1170px;
+	margin: 0px auto 0px auto;
+}
+
+.header {
+	height: 130px;
+	background: #73bbfa;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 47px;
+	margin: 0px;
+	padding-top:10px;
+	color: white;
+}
+
+h2 {
+	font-size: 25px;
+	color: white;
+
+}
+
+.video {
+	width: 400px;
+	margin: 50px auto 0px auto;
+	padding: 5px;
+	border: 1px solid #d5d5d5;
+	background: white;
+	border-radius: 4px;
+}
