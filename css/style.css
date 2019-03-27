@@ -3,6 +3,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background: #383945;
+	background: radial-gradient(#70728a, #383945);
 }
 
 article {
