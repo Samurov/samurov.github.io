@@ -92,15 +92,15 @@ h1 {
 
 
 .block1 {
-	border: px solid black;
+	border: 1px solid black;
 	margin-top: 170px;
 	float:left;
 }
 
 #block2 {
 	padding-top: 30px;
-	padding-left: 650px;
-	border: px solid black;
+	ыpadding-left: 650px;
+	border: 1px solid black;
 	user-select: none;
 }
 

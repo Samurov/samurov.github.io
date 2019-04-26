@@ -1,0 +1,88 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: #2d313d;
+}
+
+article {
+	width: 1170px;
+	margin: 0px auto 0px auto;
+}
+	
+img {
+	user-select: none;
+}
+
+.logo {
+	margin: 27px auto auto 0px;
+	float: left;
+}
+
+.navigation {
+	padding-top: 50px;
+	text-align: right;
+}
+
+.menu {
+	margin-right: 40px;
+	text-decoration: none;
+	color: black;
+}
+
+.menu:nth-child(4) {
+	margin-right: 0px;
+}
+
+.offe {
+	margin-top: 125px;
+	border: 0px solid black;
+	margin-left: 0px;
+	float: left;
+}
+
+h1 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 45px;
+	letter-spacing: 0.04em;
+	border: 0px solid black;
+	margin: 0px;
+}
+
+.offertext {
+	font-size: 28px;
+	width: 580px;
+	margin-top: 45px;
+	margin-bottom: 70px;
+	line-height: 1.3em;
+	border: 0px solid black;
+}
+
+.bottom {
+	padding: 15px 30px;
+	background: #3a72ff;
+	color: white;
+	user-select: none;
+	border-radius: 4px;
+	text-decoration: none;
+	letter-spacing: 0.02em;
+	font-weight: 500;
+	margin-top: 
+}
+
+.img {
+	float: right;
+	margin-top: 90px;
+	margin-right: 20px;
+}
+
+.clear {
+	clear: both;
+	display: table;
+	margin: 0px;
+}
+
+.strelka {
+	text-align: center;
+	margin-top: 70px;
+}
