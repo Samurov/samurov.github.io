@@ -87,6 +87,14 @@ h1 {
 	margin-top: 
 }
 
+.bottom:hover {
+	background: #376bf0;
+}
+
+.bottom:active {
+	background: #2e59c6;
+}
+
 .img {
 
 	margin-top: 90px;
@@ -102,5 +110,5 @@ h1 {
 
 .strelka {
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 40px;
 }
