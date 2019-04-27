@@ -14,25 +14,42 @@ img {
 	user-select: none;
 }
 
+.line {
+	background: black;
+	height: 50px;
+}
+
 .logo {
-	margin: 27px auto auto 0px;
+	margin: 9px auto auto 0px;
 	float: left;
 }
 
 .navigation {
-	padding-top: 50px;
+	padding-top: 16px;
 	text-align: right;
 }
 
 .menu {
-	margin-right: 40px;
+	margin-right: 100px;
 	text-decoration: none;
-	color: black;
+	color: white;
+	font-weight: 500;
+	font-size: 15px;
+	transition: 0.3s;
 }
 
-.menu:nth-child(4) {
+.menu:nth-child(3) {
 	margin-right: 0px;
 }
+
+.menu:nth-child(1) {
+	color: #ababab;
+}
+
+.menu:hover {
+	color: #ababab;
+}
+
 
 .offe {
 	margin-top: 125px;
@@ -71,9 +88,10 @@ h1 {
 }
 
 .img {
-	float: right;
+
 	margin-top: 90px;
 	margin-right: 20px;
+	padding-left: 670px;
 }
 
 .clear {
