@@ -29,14 +29,6 @@ img {
 	text-align: right;
 }
 
-.menu0 {
-	margin-right: 100px;
-	text-decoration: none;
-	color: #ababab;
-	font-weight: 500;
-	font-size: 15px;
-}
-
 .menu {
 	margin-right: 100px;
 	text-decoration: none;
@@ -50,7 +42,7 @@ img {
 	margin-right: 0px;
 }
 
-.dmenu:nth-child(1) {
+.menu:nth-child(1) {
 	color: #ababab;
 }
 
