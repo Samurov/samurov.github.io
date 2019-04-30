@@ -25,15 +25,23 @@ body {
 	padding: 0px;
 	margin: 0px;
 	color: #252530;
+	width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 html {
-  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+	scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+	width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
+
 article {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0px auto 0px auto;
+	position: relative;
 }
 	
 img {
@@ -129,6 +137,12 @@ img {
 #menu2:hover {
 	color: #ababab;
 }
+
+#one {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
 .offe {
 	margin-top: 125px;
 	border: 0px solid black;
@@ -185,13 +199,13 @@ h2 {
 }
 
 .img {
-
-	margin-top: 90px;
-	margin-right: 20px;
-	padding-left: 670px;
+	position: absolute;
+    right: -115px;
+    top: 88px;
+    z-index: 1;
+	overflow: inherit
+;
 }
-
-
 
 .clear {
 	clear: both;
