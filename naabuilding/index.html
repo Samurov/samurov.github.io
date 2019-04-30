@@ -12,16 +12,33 @@
 		<article>
 			<div>
 				<div class="logo">
-					<a href="#"><img src="image/logo2.png" alt="Николайчук Александр Анатолиевич"></a>
+					<a href="#"><img src="image/logo2.png" alt="logo"></a>
 				</div>
 				<div class="navigation">
 					<a class="menu" href="#">Укладка тротуарной плитки</a>
 					<a class="menu" href="#">Транспортные услуги</a>
 					<a class="menu" href="#">Строительные смеси</a>
 				</div>
+				
 			</div>
 		</article>
+		<div class="clear"></div>
+		<div id="line"></div>
+		<div id="line2"></div>
 	</header>
+	<section id="header2">
+		<article>
+			<div class="navigation2">
+					<a id="menu2" href="#">Главная</a>
+					<a id="menu2" href="#strelka">Как мы работаем</a>
+					<a id="menu2" href="#three">Преимущества</a>
+					<a id="menu2" href="#">Наши проекты</a>
+					<a id="menu2" href="#">Цена</a>
+					<a id="menu2" href="#">Второстепенные услуги</a>
+					<a id="menu2" href="#">Контакты</a>
+				</div>
+		</article>
+	</section>
 	<section>
 		<article>
 			
@@ -36,15 +53,91 @@
 					</h1>
 				</div>
 				<div class="offertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-				<a class="bottom" href="#">Узнать подробнее</a>
+				<a class="bottom" href="#strelka">Узнать подробнее</a>
 			</div>
 				
 			<div class="img">
 				<img src="image/4.png" alt="">
 			</div>
 			<div class="clear"></div>
-			<p class="strelka"><a href="#"><img src="image/2.png" alt=""></a></p>
+			<p id="strelka"><a href="#strelka"><img src="image/2.png" alt=""></a></p>
 		</article>
 	</section>
+	<section id="two">
+		<article>
+			<div>
+				<h2>Как мы работаем</h2>
+				<div class="hww hww1">
+					<p class="centr"><img src="image/2.1.png" alt=""></p>
+					<div class="titlehww">Принимаем проект</div>
+					<div class="texthww">Согласовуем с клиентом
+					все моменты подготовки
+					к укладке плитки.</div>
+				</div>
+				<div class="hww hww2">
+					<p class="centr"><img src="image/2.2.png" alt=""></p>
+					<div class="titlehww">Подготавливаем участок</div>
+					<div class="texthww">Производим подготовительные
+работы для последующего 
+укладывания плитки.</div>
+				</div>
+				<div class="hww hww3">
+					<p class="centr"><img src="image/2.3.png" alt=""></p>
+					<div class="titlehww">Укладываем плитку</div>
+					<div class="texthww">Укладка плитки на готовый и
+подготовленный участок.</div>
+				</div>
+				<div class="hww hww4">
+					<p class="centr"><img src="image/2.4.png" alt=""></p>
+					<div class="titlehww">Сдаем проект</div>
+					<div class="texthww">Сдаем уложеную плитку
+подписываем акты
+выполненных работ.</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</article>
+	</section>
+	<section id="three">
+		<article>
+			<h2>Преимущества</h2>
+			
+		</article>
+	</section>
+<script>
+(function(){  // анонимная функция (function(){ })(), чтобы переменные "a" и "b" не стали глобальными
+var a = document.querySelector('#header2'), b = null;  // селектор блока, который нужно закрепить
+window.addEventListener('scroll', Ascroll, false);
+document.body.addEventListener('scroll', Ascroll, false);  // если у html и body высота равна 100%
+function Ascroll() {
+  if (b == null) {  // добавить потомка-обёртку, чтобы убрать зависимость с соседями
+    var Sa = getComputedStyle(a, ''), s = '';
+    for (var i = 0; i < Sa.length; i++) {  // перечислить стили CSS, которые нужно скопировать с родителя
+      if (Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
+        s += Sa[i] + ': ' +Sa.getPropertyValue(Sa[i]) + '; '
+      }
+    }
+    b = document.createElement('div');  // создать потомка
+    b.style.cssText = s + ' box-sizing: border-box; width: ' + a.offsetWidth + 'px;';
+    a.insertBefore(b, a.firstChild);  // поместить потомка в цепляющийся блок первым
+    var l = a.childNodes.length;
+    for (var i = 1; i < l; i++) {  // переместить во вновь созданного потомка всех остальных потомков (итого: создан потомок-обёртка, внутри которого по прежнему работают скрипты)
+      b.appendChild(a.childNodes[1]);
+    }
+    a.style.height = b.getBoundingClientRect().height + 'px';  // если под скользящим элементом есть другие блоки, можно своё значение
+    a.style.padding = '0';
+    a.style.border = '0';  // если элементу присвоен padding или border
+  }
+  if (a.getBoundingClientRect().top <= 0) { // elem.getBoundingClientRect() возвращает в px координаты элемента относительно верхнего левого угла области просмотра окна браузера
+    b.className = 'sticky';
+  } else {
+    b.className = '';
+  }
+  window.addEventListener('resize', function() {
+    a.children[0].style.width = getComputedStyle(a, '').width
+  }, false);  // если изменить размер окна браузера, измениться ширина элемента
+}
+})()
+</script>
 </body>
 </html>

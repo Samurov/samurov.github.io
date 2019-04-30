@@ -1,8 +1,34 @@
+@font-face {
+    font-family: 'Futura PT3';
+    src: url('../fonts/FuturaPT-Medium.eot');
+    src: local('Futura PT Medium'), local('FuturaPT-Medium'),
+        url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Medium.woff') format('woff'),
+        url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT2';
+    src: url('../fonts/FuturaPT-Book.eot');
+    src: local('Futura PT Book'), local('FuturaPT-Book'),
+        url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Book.woff') format('woff'),
+        url('../fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	padding: 0px;
 	margin: 0px;
-	color: #2d313d;
+	color: #252530;
+}
+
+html {
+  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
 }
 
 article {
@@ -15,9 +41,30 @@ img {
 }
 
 .line {
-	background: black;
+	background: #333333;
 	height: 50px;
 }
+
+#header2 {
+	background: #444444;
+	height: 40px;
+}
+
+ #line {
+ 	height: 1px;
+ 	background: #2b2b2b;
+ 	border: 0px solid black;
+ 	width: 100%;
+ 	margin-top: 1px;
+ }
+
+
+ #line2 {
+ 	height: 1px;
+ 	background: #4f4d54;
+ 	border: 0px solid black;
+ 	width: 100%;
+ }
 
 .logo {
 	margin: 9px auto auto 0px;
@@ -29,13 +76,21 @@ img {
 	text-align: right;
 }
 
+.navigation2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+
+}
+
 .menu {
 	margin-right: 100px;
 	text-decoration: none;
 	color: white;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 15px;
-	transition: 0.3s;
+	transition: all 0.3s;
+	font-family: 'Montserrat'
 }
 
 .menu:nth-child(3) {
@@ -44,12 +99,30 @@ img {
 
 .menu:nth-child(1) {
 	color: #ababab;
+
 }
 
 .menu:hover {
 	color: #ababab;
 }
 
+#menu2 {
+	margin-right: 40px;
+	text-decoration: none;
+	color: #efefef;
+	font-weight: ;
+	font-size: 14px;
+	transition: all 0.3s;
+
+}
+
+#menu2:hover {
+	color: #ababab;
+}
+
+#menu2:nth-child(7) {
+	margin-right: 0px;
+}
 
 .offe {
 	margin-top: 125px;
@@ -65,6 +138,17 @@ h1 {
 	border: 0px solid black;
 	margin: 0px;
 }
+
+h2 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 40px;
+	letter-spacing: 0.04em;
+	border: 0px solid black;
+	margin: 0px;
+	padding-top: 68px;
+	text-align: center;
+}
+
 
 .offertext {
 	font-size: 28px;
@@ -84,7 +168,7 @@ h1 {
 	text-decoration: none;
 	letter-spacing: 0.02em;
 	font-weight: 500;
-	margin-top: 
+	transition: all 0.3s;
 }
 
 .bottom:hover {
@@ -102,13 +186,98 @@ h1 {
 	padding-left: 670px;
 }
 
+
+
 .clear {
 	clear: both;
 	display: table;
 	margin: 0px;
 }
 
-.strelka {
+#strelka {
 	text-align: center;
 	margin-top: 40px;
+	padding-bottom: 70px;
 }
+
+#two {
+
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню */
+  z-index: 101;
+}
+
+
+.hww {
+	margin-top: 110px;
+	padding-bottom: 100px;
+}
+
+.hww1 {
+	width: 225px;
+	float: left;
+}
+
+.hww2 {
+	width: 300px;
+	float: left;
+	margin-left: 60px;
+}
+
+.hww3 {
+	width: 256px;
+	float: left;
+	margin-left: 60px;
+}
+
+.hww4 {
+	width: 225px;
+	float: right;
+}
+
+.titlehww {
+	font-family: 'Futura PT3';
+	font-size: 26px;
+	text-align: center;
+	margin-top: 24px;
+	font-weight: 500;
+
+}
+
+.texthww {
+	font-family: 'Futura PT2';
+	font-size: 20px;
+	text-align: center;
+	margin-top: 8px;
+	line-height: 1.3em;
+
+}
+
+.centr {
+	text-align: center;
+}
+
+.circle {
+ 	color: #c3bcd0;	
+	text-decoration: none;
+ 	background: #524d5b;
+ 	width: 60px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-right: 0px;
+ 	padding-left: 0px;
+ 	border-radius: 30px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	margin-right: 60px;
+}
+
+#three {
+	height: 700px;
+	padding-top: 70px;
+}
+
