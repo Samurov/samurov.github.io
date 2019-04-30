@@ -117,7 +117,11 @@ img {
 	color: white;
 }
 
-#menu2 {
+.menu:active {
+	color: white;
+}
+
+.menu2 {
 	margin-right: 40px;
 	text-decoration: none;
 	color: #b4b4b4;
@@ -129,12 +133,16 @@ img {
 
 
 
-#menu2:nth-child(7) {
+.menu2:nth-child(7) {
 	margin-right: 0px;
 }
 
-#menu2:hover {
+.menu2:hover {
 	color: #e6e6e6;
+}
+
+.menu2:active {
+	color: white;
 }
 
 #one {
