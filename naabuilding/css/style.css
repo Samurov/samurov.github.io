@@ -94,7 +94,7 @@ img {
 .menu {
 	margin-right: 100px;
 	text-decoration: none;
-	color: white;
+	color: #b4b4b4;
 	font-weight: 400;
 	font-size: 15px;
 	transition: all 0.3s;
@@ -106,18 +106,21 @@ img {
 }
 
 .menu:nth-child(1) {
-	color: #ababab;
-
+	color: white;
 }
 
 .menu:hover {
-	color: #ababab;
+	color: #e6e6e6;
+}
+
+.menu:hover:nth-child(1) {
+	color: white;
 }
 
 #menu2 {
 	margin-right: 40px;
 	text-decoration: none;
-	color: #efefef;
+	color: #b4b4b4;
 	font-weight: ;
 	font-size: 14px;
 	transition: all 0.3s;
@@ -130,12 +133,8 @@ img {
 	margin-right: 0px;
 }
 
-#menu2:nth-child(5) {
-	color: #fff7a1;
-}
-
 #menu2:hover {
-	color: #ababab;
+	color: #e6e6e6;
 }
 
 #one {
