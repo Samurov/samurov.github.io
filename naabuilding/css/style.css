@@ -119,6 +119,7 @@ img {
 
 .menu:active {
 	color: white;
+	transition: all 0s;
 }
 
 .menu2 {
@@ -143,6 +144,7 @@ img {
 
 .menu2:active {
 	color: white;
+	transition: all 0s;
 }
 
 #one {
