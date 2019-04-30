@@ -116,14 +116,19 @@ img {
 
 }
 
-#menu2:hover {
-	color: #ababab;
-}
+
 
 #menu2:nth-child(7) {
 	margin-right: 0px;
 }
 
+#menu2:nth-child(5) {
+	color: #fff7a1;
+}
+
+#menu2:hover {
+	color: #ababab;
+}
 .offe {
 	margin-top: 125px;
 	border: 0px solid black;
