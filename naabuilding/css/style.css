@@ -357,6 +357,7 @@ h2 {
 	font-family: 'Futura PT3';
 	font-size: 40px;
 	color: #f2f2f2;
+	z-index: 2;
 }
 
 .inst_text {
@@ -366,6 +367,7 @@ h2 {
 	width: 350px;
 	color: #f0d8d8;
 	padding-bottom: 55px;
+	z-index: 2;
 }
 
 .inst_img {
@@ -381,6 +383,7 @@ h2 {
 	font-size: 40px;
 	color: #3c3434;
 	text-align: right;
+	z-index: 2;
 }
 
 .teh_text {
@@ -391,13 +394,13 @@ h2 {
 	color: #4c4c49;
 	text-align: right;
 	padding-bottom: 55px;
+	z-index: 2;
 }
 
 .teh_img {
 	position: absolute;
 	left: 0px;
 	top: 24px;
-	z-index: 1;
 }
 
 .opit_title {
@@ -405,6 +408,7 @@ h2 {
 	font-family: 'Futura PT3';
 	font-size: 40px;
 	color: #ffffff;
+	z-index: 2;
 }
 
 .opit_text {
@@ -414,6 +418,7 @@ h2 {
 	width: 460px;
 	color: #d4ebff;
 	padding-bottom: 55px;
+	z-index: 2;
 }
 
 .opit_img {
