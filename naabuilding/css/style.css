@@ -339,17 +339,23 @@ h2 {
 #inst {
 	height: 533px;
 	background: #6b534f;
+	position: relative;
+	z-index: 1;
 
 }
 
 #teh {
 	height: 533px;
 	background: #edeae1;
+	position: relative;
+	z-index: 1;
 }
 
 #opit {
 	height: 533px;
 	background: #5386b1;
+	position: relative;
+	z-index: 1;
 }
 
 .inst_title {
@@ -357,7 +363,6 @@ h2 {
 	font-family: 'Futura PT3';
 	font-size: 40px;
 	color: #f2f2f2;
-	z-index: 2;
 }
 
 .inst_text {
@@ -367,13 +372,13 @@ h2 {
 	width: 350px;
 	color: #f0d8d8;
 	padding-bottom: 55px;
-	z-index: 2;
 }
 
 .inst_img {
 	position: absolute;
 	right: 0px;
 	top: 74px;
+	z-index: -1;
 }
 
 .teh_title {
@@ -381,8 +386,7 @@ h2 {
 	font-family: 'Futura PT3';
 	font-size: 40px;
 	color: #3c3434;
-	text-align: right;
-	z-index: 2;
+	text-align: right;;
 }
 
 .teh_text {
@@ -393,13 +397,13 @@ h2 {
 	color: #4c4c49;
 	text-align: right;
 	padding-bottom: 55px;
-	z-index: 2;
 }
 
 .teh_img {
 	position: absolute;
 	left: 0px;
 	top: 24px;
+	z-index: -1;
 }
 
 .opit_title {
@@ -407,7 +411,6 @@ h2 {
 	font-family: 'Futura PT3';
 	font-size: 40px;
 	color: #ffffff;
-	z-index: 2;
 }
 
 .opit_text {
@@ -417,13 +420,13 @@ h2 {
 	width: 460px;
 	color: #d4ebff;
 	padding-bottom: 55px;
-	z-index: 2;
 }
 
 .opit_img {
 	position: absolute;
 	right: -106px;
 	top: -99px;
+	z-index: -1;
 }
 
 
