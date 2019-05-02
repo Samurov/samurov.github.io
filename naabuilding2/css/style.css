@@ -369,7 +369,7 @@ h2 {
 .inst_title {
 	padding-top: 70px;
 	font-family: 'Futura PT3';
-	font-size: 40px;
+	font-size: 35px;
 	color: #f2f2f2;
 }
 
@@ -391,7 +391,7 @@ h2 {
 
 .blocks_teh {
 	position: relative;
-	right: 0px;
+	right: 125px;
 	width: 380px;
 	
 }
@@ -399,7 +399,7 @@ h2 {
 .teh_title {
 	padding-top: 152px;
 	font-family: 'Futura PT3';
-	font-size: 40px;
+	font-size: 35px;
 	color: #3c3434;
 	text-align: right;
 	float: right;
@@ -418,15 +418,15 @@ h2 {
 
 .teh_img {
 	position: absolute;
-	right: 400px;
-	top: 150px;
+	right: 370px;
+	top: 190px;
 	z-index: -1;
 }
 
 .opit_title {
 	padding-top: 152px;
 	font-family: 'Futura PT3';
-	font-size: 40px;
+	font-size: 35px;
 	color: #ffffff;
 }
 
