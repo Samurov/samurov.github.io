@@ -161,8 +161,9 @@ img {
 
 h1 {
 	font-family: 'Philosopher', sans-serif;
-	font-size: 45px;
+	font-size: 47px;
 	letter-spacing: 0.04em;
+	line-height: 1.05em;
 	border: 0px solid black;
 	margin: 0px;
 }
@@ -181,21 +182,20 @@ h2 {
 .offertext {
 	font-size: 28px;
 	width: 580px;
-	margin-top: 45px;
-	margin-bottom: 70px;
+	margin-top: 32px;
+	margin-bottom: 60px;
 	line-height: 1.3em;
 	border: 0px solid black;
 }
 
 .bottom {
 	padding: 15px 30px;
-	background: #3a72ff;
+	background: #4297ff;
 	color: white;
 	user-select: none;
 	border-radius: 4px;
 	text-decoration: none;
 	letter-spacing: 0.02em;
-	font-weight: 500;
 	transition: all 0.3s;
 }
 
@@ -209,9 +209,13 @@ h2 {
 
 .img {
 	position: absolute;
-    right: -115px;
-    top: 88px;
+    right: -70px;
+    top: 93px;
     z-index: 1;
+}
+
+.why {
+	color: #f2f2f2;
 }
 
 .clear {
