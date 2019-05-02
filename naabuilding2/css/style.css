@@ -364,7 +364,7 @@ h2 {
 
 .blocks_inst {
 	position: relative;
-	left: 600px;
+	left: 550px;
 }
 .inst_title {
 	padding-top: 70px;
@@ -384,9 +384,14 @@ h2 {
 
 .inst_img {
 	position: absolute;
-	left: 350px;
+	left: 300px;
 	top: 220px;
 	z-index: -1;
+}
+
+.blocks_teh {
+	position: relative;
+	right: 350px;
 }
 
 .teh_title {
@@ -409,8 +414,8 @@ h2 {
 
 .teh_img {
 	position: absolute;
-	left: 0px;
-	top: 24px;
+	right: 550px;
+	top: 334px;
 	z-index: -1;
 }
 
