@@ -391,7 +391,9 @@ h2 {
 
 .blocks_teh {
 	position: relative;
-	right: 350px;
+	right: 0px;
+	width: 380px;
+	float: right;
 }
 
 .teh_title {
@@ -399,7 +401,7 @@ h2 {
 	font-family: 'Futura PT3';
 	font-size: 40px;
 	color: #3c3434;
-	text-align: right;;
+	text-align: right;
 }
 
 .teh_text {
