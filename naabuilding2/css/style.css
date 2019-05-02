@@ -393,7 +393,7 @@ h2 {
 	position: relative;
 	right: 0px;
 	width: 380px;
-	float: right;
+	
 }
 
 .teh_title {
@@ -402,6 +402,7 @@ h2 {
 	font-size: 40px;
 	color: #3c3434;
 	text-align: right;
+	float: right;
 }
 
 .teh_text {
@@ -412,12 +413,13 @@ h2 {
 	color: #4c4c49;
 	text-align: right;
 	padding-bottom: 55px;
+	float: right;
 }
 
 .teh_img {
 	position: absolute;
-	right: 550px;
-	top: 334px;
+	right: 400px;
+	top: 150px;
 	z-index: -1;
 }
 
@@ -486,6 +488,7 @@ h2 {
 	transition: all 0.3s;
 	font-family: 'Montserrat';
 	font-size: 15px;
+	float:right;
 }
 
 .teh_bottom:hover {
