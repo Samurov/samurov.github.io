@@ -302,8 +302,11 @@ h2 {
 
 .centr {
 	text-align: center;
-	height:110px;
-	border: 1px solid black;
+}
+
+.hww img {
+	height:54px;
+	width: 100%;
 }
 
 
