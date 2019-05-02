@@ -363,10 +363,11 @@ h2 {
 }
 
 .blocks_inst {
-	 position: relative;
+	position: relative;
+	left: 200px;
 }
 .inst_title {
-	padding-top: 152px;
+	padding-top: 0px;
 	font-family: 'Futura PT3';
 	font-size: 40px;
 	color: #f2f2f2;
