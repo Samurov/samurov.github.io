@@ -247,7 +247,6 @@ h2 {
 	margin-top: 90px;
 	display: flex;
 	margin-bottom: 30px;
-	height: 450px;
 }
 
 .space {
@@ -263,39 +262,9 @@ h2 {
 
 }
 
-.circle {
-	position: absolute;
-	z-index: -1;
-	top: 30px;
-	left: 30px;
-}
-
-.circle2 {
-	position: absolute;
-	z-index: -1;
-	top: 35px;
-	left: 70px;
-}
-
-.circle3 {
-	position: absolute;
-	z-index: -1;
-	top: 5px;
-	left: 70px;
-}
-
-.circle4 {
-	position: absolute;
-	z-index: -1;
-	top: 35px;
-	left: 55px;
-}
 
 .hww1 {
 	width: 210px;
-
-
-
 }
 
 .hww2 {
@@ -333,6 +302,8 @@ h2 {
 
 .centr {
 	text-align: center;
+	height:110px;
+	border: 1px solid black;
 }
 
 
