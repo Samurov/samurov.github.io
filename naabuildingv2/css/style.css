@@ -84,10 +84,15 @@ img {
 	color: white;
 	user-select: none;
 	transition: all 0.3s;
+	padding-left: 7px;
+}
+
+.logo a:nth-child(1) {
+	color: grey;
 }
 
 .logo:hover a {
-	color: #3c81ff;
+	color: grey;
 }
 
 .navigation {
