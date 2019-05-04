@@ -4,6 +4,8 @@ body {
 	padding: 0px;
 	background: #383945;
 	background: radial-gradient(#70728a, #383945);
+	text-decoration: none;
+
 }
 
 article {
@@ -12,9 +14,10 @@ article {
 }
 
 .one {
-	height: 600px;
+	height: 200px;
 	background: url(../image/1.jpg);
-	margin-top: 70px;
+	background-position: left, right;
+	margin-top: 20px;
 	text-align: center;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -22,7 +25,7 @@ article {
 
 .textone {
 	position: relative;
-	padding: 240px 0 0 0; 
+	padding: 20px 0 0 0; 
 }
 
 
@@ -63,10 +66,10 @@ h2 {
 }
 
 .two {
-	height: 600px;
-	background: url(../image/2.jpg);
+	height: 150px;
+	background: #343434;
 	margin-top: 70px;
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 	display: block;
@@ -86,47 +89,47 @@ h2 {
 
 
 .texttwo {
-	padding-left: 60px;
-	padding-top: 124px;
+	padding-left: 10px;
+	padding-top: 10px;
 }
 
 .t01 {
 	color: #bbc5c7;
-	font-size: 60px;
-	mix-blend-mode: overlay;
+	font-size: 30px;
 	font-weight: bold;
 	float: left;
-	margin-bottom: 50px;
 
 }
 
 .Rudolph {
 	color: #bbc5c7;
-	font-size: 60px;
-	mix-blend-mode: overlay;
+	font-size: 30px;
 	font-weight: bold;
-	float: left;
-	margin-left: 475px;
-
+	margin-right: 20px;
+	text-align: right;
+	text-decoration: none;
 }
 
 .gift {
 	color: #bbc5c7;
-	font-size: 25px;
-	mix-blend-mode: overlay;
+	font-size: 20px;
 	font-weight: bold;
-	float: left;
-	margin-left: 481px;
+	margin-right: 20px;
+	text-align: right;
+	text-decoration: none;
 }
 
 .three {
-	height: 600px;
-	background: url(../image/3.jpg);
-	margin-top: 70px;
+	height: 150px;
+	background: #343434;
+	margin-top: 0px;
 	margin-bottom: 70px;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 	display: block;
+	width: 575px;
+	float: left;
+
 }
 
 .three:hover {
@@ -141,13 +144,13 @@ h2 {
 
 
 .texttwo2 {
-	padding-left: 60px;
-	padding-top: 60px;
+	padding-left: 10px;
+	padding-top: 10px;
 }
 
 .t02 {
 	color: #bbc5c7;
-	font-size: 60px;
+	font-size: 30px;
 	font-weight: bold;
 	float: left;
 	margin-bottom: 50px;
@@ -156,17 +159,22 @@ h2 {
 
 .Rudolph2 {
 	color: #bbc5c7;
-	font-size: 60px;
+	font-size: 30px;
 	font-weight: bold;
-	float: left;
-	margin-left: 475px;
-
+	float: right;
+	margin-left: 200px;
+	margin-right: 20px;
 }
 
 .gift2 {
 	color: #bbc5c7;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
-	float: left;
-	margin-left: 481px;
+	float: right;
+	margin-left: 0px;
+	margin-right: 20px;
+}
+
+.v2 {
+	float: right;
 }
