@@ -93,12 +93,14 @@ img {
 .navigation {
 	padding-top: 16px;
 	text-align: right;
+	user-select: none;
 }
 
 .navigation2 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: left;
+	user-select: none;
 
 }
 
