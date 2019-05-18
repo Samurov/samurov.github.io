@@ -105,7 +105,18 @@ img {
 	padding-bottom: 10px;
 	text-align: left;
 	user-select: none;
+	float: left;
 
+}
+
+.navigation3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+	user-select: none;
+	text-decoration: none;
+	color: #b4b4b4;
+	font-size: 14px;
 }
 
 .menu {
