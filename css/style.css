@@ -164,7 +164,7 @@ h2 {
 	border-radius: 6px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 	display: block;
-	width: 1000px;
+	width: 100%;
 	float: left;
 	user-select: none;
 	text-decoration: none;
@@ -229,9 +229,8 @@ h2 {
 }
 
 .v2 {
-	float: right;
 	background: #1b580c;
-		background-image: -webkit-linear-gradient(#1e610e, #1b580c);
+	background-image: -webkit-linear-gradient(#1e610e, #1b580c);
     background-image: -o-linear-gradient(#1e610e, #1b580c);
     background-image: linear-gradient(#1e610e, #1b580c);
 
