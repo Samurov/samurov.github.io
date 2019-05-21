@@ -25,9 +25,9 @@ body {
 	padding: 0px;
 	margin: 0px;
 	color: #4d4d4d;
-	width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+	max-width: 100%;
+	overflow-x: hidden;
+	min-width: 1170px;
 }
 
 html {
@@ -113,7 +113,6 @@ img {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: right;
-	user-select: none;
 	text-decoration: none;
 	color: #b4b4b4;
 	font-size: 14px;
@@ -447,20 +446,38 @@ h2 {
 	padding-bottom: 25px;
 }
 
+
 .two-colums1 {
 	margin-right: 30px;
 	float: left;
 	margin-bottom: 30px;
+	max-width: 770px;
+	height: auto;
+
 }
+
+.two-colums2 {
+	float: left;
+	margin-bottom: 30px;
+	max-width: 370px;
+	height: auto;
+}
+
 
 .three-colums {
 	margin-right: 30px;
 	float: left;	
 	padding-bottom: 100px;
+
+	max-width: 370px;
 }
 
-.three-colums:nth-child(3) {
+.three-colums2 {
 	margin-right: 0px;
+	float: left;	
+	padding-bottom: 100px;
+
+	max-width: 370px;
 }
 
 table {
@@ -506,6 +523,11 @@ td a {
 
 tr:hover {
 	background: #f5f8fc;
+}
+
+td span {
+	color: #737373;
+	font-size: 16px;
 }
 
 .screen_five-text {
@@ -564,35 +586,31 @@ tr:hover {
 
 #footer {
 	height: 230px;
-	background: #212121;
-	font-family: 'Futura PT2';
-	font-size: 19px;
+	background: #28282c;
+	font-family: 'Montserrat';
+	font-size: 15px;
 }
 
 .logo2 {
 	font-family: 'Philosopher';
 	font-size: 24px;
 	text-decoration: none;
-	color: #e5e5e5;
+	color: #fafafa;
 	user-select: none;
 }
 
 .footer-text {
 	padding-top: 10px;
-	float: left;
 	color: #7d7d7d;
 	line-height: 2.2em;
 }
 
 .footer-block1 {
 	width: 207px;
-	float: left;
 }
 
 .footer-block2 {
-	width: 160px;
-	float: left;
-	padding-left: 300px;
+	width: 170px;
 }
 
 .footer-block2 a {
@@ -616,7 +634,6 @@ tr:hover {
 
 .footer-block3 {
 	width: 200px;
-	float: right;
 }
 
 .footer-block3-text {
@@ -632,4 +649,11 @@ tr:hover {
 
 .footer-block {
 	padding-top: 50px;
+	display: flex;
+}
+
+.clearfix {
+	width: 100%; 
+	height: 1px; 
+	clear: both;
 }

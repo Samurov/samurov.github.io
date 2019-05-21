@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Philosopher:700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+	<link href="css/lightbox.css" rel="stylesheet">
 </head>
 <body>
 	<header class="line">
@@ -39,7 +40,7 @@
 				<a class="menu2" href="#screen_six">Контакты</a>
 			</div>
 			<div class="navigation3">
-				г. Коростень
+				+38 (067) 24 556 44
 			</div>
 		</article>
 	</section>
@@ -88,14 +89,15 @@
 				<div class="hww hww3">
 					<p class="centr"><img src="image/icon3.png"></p>
 					<div class="titlehww">Укладываем плитку</div>
-					<div class="texthww">Укладка плитки на готовый и
-подготовленный участок.</div>
+					<div class="texthww">Укладка плитки с необходимым 
+рисунком на подготовленный
+участок.</div>
 				</div>
 				<div class="space"></div>
 				<div class="hww hww4">
 					<p class="centr"><img src="image/icon4.png"></p>
 					<div class="titlehww">Сдаем проект</div>
-					<div class="texthww">Сдаем уложеную плитку
+					<div class="texthww">Сдаем уложеную плитку,
 подписываем акты
 выполненных работ.</div>
 				</div>
@@ -138,13 +140,19 @@
 			<div class="screen_four_title" >Церковь возле центральной городской больницы</div>
 			<div class="screen_four_text">Коростень, улица Николая Амосова 8</div>
 			<div>
-				<img class="two-colums1" src="image/us1.png" alt="">
-				<img class="two-colums" src="image/us2.png" alt="">
+				<a href="image/us1.jpg" data-lightbox="image-1" data-title="My caption" >
+				<img class="two-colums1" src="image/us1-thmb.png" alt=""></a>
+				<a href="image/us2.jpg" data-lightbox="image-1" data-title="My caption" >
+				<img class="two-colums" src="image/us2-thmb.png" alt=""></a>
+				
 			</div>
 			<div>
-				<img class="three-colums" src="image/us3.png" alt="">
-				<img class="three-colums" src="image/us4.png" alt="">
-				<img class="three-colums" src="image/us5.png" alt="">
+				<a href="image/us3.jpg" data-lightbox="image-1" data-title="My caption" >
+				<img class="three-colums" src="image/us3-thmb.png" alt=""></a>
+				<a href="image/us4.jpg" data-lightbox="image-1" data-title="My caption" >
+				<img class="three-colums" src="image/us4-thmb.png" alt=""></a>
+				<a href="image/us5.jpg" data-lightbox="image-1" data-title="My caption" >
+				<img class="three-colums2" src="image/us5-thmb.png" alt=""></a>
 			</div>
 			<div class="clear"></div>
 		</article>
@@ -155,28 +163,28 @@
 			<h2>Цена</h2>
 			<table>
 				<tr>
-					<th class="th th1">Тип услуги</th>
+					<th class="th th1">Тип</th>
 					<th class="th th2">Цена</th>
 				</tr>
 				<tr>
 					<td>Укладка плитки</th>
-					<td class="th2">150 грн/м2</th>
+					<td class="th2">150 грн/м<sup>2</sup></th>
 				</tr>
 				<tr>
 					<td>Подготовка основания</th>
-					<td class="th2">80 грн/м2</th>
+					<td class="th2">80 грн/м<sup>2</sup></th>
 				</tr>
 				<tr>
-					<td>Щебень, песок, цемент</th>
+					<td>Щебень, песок, цемент<span>&nbsp;&nbsp;(при необходимости)</span></th>
 					<td class="th2"><a href="#">Посмотреть цены</a></th>
 				</tr>
 				<tr>
-					<td>Услуги транспорта и техники</th>
+					<td>Услуги транспорта и техники<span>&nbsp;&nbsp;(при необходимости)</span></th>
 					<td class="th2"><a href="">Посмотреть цены</a></th></th>
 				</tr>
 			</table>
 			<div class="screen_five-text">Конечная цена зависит от сложности участка.</div>
-			<div class="screen_five-text2"><a href="Прейскурант.xlsx">Весь прейскурант услуг и цен</a></div>
+			<div class="screen_five-text2"><a href="Прейскурант.xlsx">Скачать весь прейскурант услуг и цен</a></div>
 			<div class="clear"></div>
 		</article>
 	</section>
@@ -192,16 +200,17 @@
 	</section>
 	<section id="footer">
 		<article>
-			<div class="clear"></div>
 			<div class="footer-block">
 				<div class="footer-block1">
 					<div class="logo2">
 						ФОП Николайчук
 					</div>
-					<div class="footer-text">© Все права защищены. <br>
+					<div class="footer-text">© Все права защищены. 
+					<br>
 					2019 г. 
 					</div>
 				</div>
+				<div class="space"></div>
 				<div class="footer-block2">
 					<div>
 					Остальные услуги:
@@ -209,6 +218,7 @@
 					<a href="">Транспорт и техника</a>
 					<a href="">Строительные смеси</a>
 				</div>
+				<div class="space"></div>
 				<div class="footer-block3">
 					<div class="footer-block3-text">
 					Время работы:
@@ -256,5 +266,6 @@ function Ascroll() {
 }
 })()
 </script>
+<script src="js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
