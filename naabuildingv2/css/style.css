@@ -457,6 +457,8 @@ h2 {
 	height: 230px;
 	background: grey;
 	border-radius: 4px;
+	text-align: center;
+	line-height: 14em;
 }
 
 .time-block2 {
@@ -464,6 +466,8 @@ h2 {
 	height: 230px;
 	background: grey;
 	border-radius: 4px;
+	text-align: center;
+	line-height: 14em;
 }
 
 .four-colums:hover {
@@ -481,6 +485,8 @@ h2 {
 	height: 230px;
 	background: grey;
 	border-radius: 4px;
+	text-align: center;
+	line-height: 14em;
 }
 
 .four-colums {
