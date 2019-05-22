@@ -27,20 +27,17 @@ body {
 	color: #4d4d4d;
 	max-width: 100%;
 	overflow-x: hidden;
-	min-width: 1170px;
+	min-width: 1220px;
 }
 
 html {
 	scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
-	width: 100%;
-    max-width: 100%;
     overflow-x: hidden;
 }
 
 
 article {
 	max-width: 1170px;
-
 	margin: 0px auto 0px auto;
 
 }
@@ -55,8 +52,12 @@ img {
 }
 
 #header2 {
-	background: #444444;
+	1background: #f5f5f5;
+	background: white;
 	height: 40px;
+	1background: rgba(242, 242, 242);
+	border-bottom: 1px solid rgba(235, 235, 235);
+
 }
 
 #line {
@@ -88,6 +89,9 @@ img {
 
 }
 
+.logo a:hover {
+	color: #e5e5e5;
+}
 
 
 .logo img {
@@ -115,7 +119,7 @@ img {
 	padding-bottom: 10px;
 	text-align: right;
 	text-decoration: none;
-	color: #b4b4b4;
+	color: #3c3c3c;
 	font-size: 14px;
 }
 
@@ -153,7 +157,7 @@ img {
 .menu2 {
 	margin-right: 40px;
 	text-decoration: none;
-	color: #b4b4b4;
+	color: #3c3c3c;
 	font-weight: ;
 	font-size: 14px;
 	transition: all 0.2s;
@@ -164,11 +168,11 @@ img {
 }
 
 .menu2:hover {
-	color: #f5f5f5;
+	color: #afafaf;
 }
 
 .menu2:active {
-	color: white;
+	color: #c7c7c7;
 	transition: all 0s;
 }
 
@@ -447,10 +451,6 @@ h2 {
 	padding-bottom: 20px;
 }
 
-.screen_four img:hover {
-	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-}
-
 
 .time-block {
 	width: 370px;
@@ -473,11 +473,23 @@ h2 {
 .four-colums:hover {
 	border-radius: 4px;
 	box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
+	filter: brightness(105%);
+}
+
+.four-colums:active {
+	border-radius: 4px;
+	filter: brightness(90%);
 }
 
 .four-colums2:hover {
 	border-radius: 4px;
 	box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
+	filter: brightness(105%);
+}
+
+.four-colums2:active {
+	border-radius: 4px;
+	filter: brightness(90%);
 }
 
 .time-block3 {
@@ -527,6 +539,11 @@ td a {
 	user-select: none;
 }
 
+td a:hover {
+	color: #2275d4;
+
+}
+
 .th {
 	border-top: 1px solid #e6e6e6;
 	background: #f2f2f2;
@@ -562,6 +579,10 @@ td span {
 .screen_five-text2 {
 	margin-right: 110px;
 	float: right;
+}
+
+.screen_five-text2 a:hover {
+	color: #2275d4;
 }
 
 .screen_five-text2 a {
@@ -606,10 +627,11 @@ td span {
 }
 
 #footer {
-	height: 230px;
+	height: 170px;
 	background: #28282c;
 	font-family: 'Montserrat';
-	font-size: 15px;
+	font-weight: 500;
+	font-size: 14px;
 }
 
 .logo2 {
@@ -669,7 +691,7 @@ td span {
 
 
 .footer-block {
-	padding-top: 50px;
+	padding-top: 30px;
 	display: flex;
 }
 
