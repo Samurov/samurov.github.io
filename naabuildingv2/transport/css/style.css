@@ -137,7 +137,7 @@ img {
 	margin-right: 0px;
 }
 
-.menu:nth-child(1) {
+.menu:nth-child(2) {
 	color: white;
 }
 
@@ -189,13 +189,6 @@ img {
 	float: left;
 }
 
-.offe img {
-	position: absolute;
-	top: 65px;
-	left: 10px;
-	z-index: -1;
-}
-
 h1 {
 	font-family: 'Philosopher', sans-serif;
 	font-size: 47px;
@@ -216,10 +209,22 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-family: 'Futura PT2';
+	font-size: 25px;
+	color: #909090;
+	text-align: center;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 17px;
+
+
+}
 
 .offertext {
 	font-size: 16px;
-	width: 430px;
+	width: 400px;
 	margin-top: 22px;
 	margin-bottom: 50px;
 	line-height: 1.5em;
@@ -230,8 +235,8 @@ h2 {
 .bottom {
 	font-size: 14px;
 	padding: 13px 23px;
-	background: #3c81ff;
-	color: white;
+	background: #ffd33c;
+	color: #3c3c3c;
 	user-select: none;
 	border-radius: 4px;
 	text-decoration: none;
@@ -240,20 +245,27 @@ h2 {
 }
 
 .bottom:hover {
-	background: #3877eb;
+	background: #f2c72c;
 }
 
 .bottom:active {
-	background: #356fdb;
+	background: #dbb735;
 }
 
 .main_image {
 	position: absolute;
-	left: 610px;
-	top: 50px;
+	left: 710px;
+	top: 80px;
 	z-index: -1;
 	max-width: 662px;
 	height: auto;
+}
+
+.offe img {
+	position: absolute;
+	top: 55px;
+	left: 10px;
+	z-index: -1;
 }
 
 .why {
@@ -266,339 +278,169 @@ h2 {
 	margin: 0px;
 }
 
-#screen_two {
-	margin-top: 115px;
-	background: #f8f8f8;
-}
-
-
 .sticky {
   position: fixed;
   top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню */
   z-index: 101;
 }
 
-.blocks {
-	margin-top: 90px;
-	display: flex;
-	margin-bottom: 30px;
-
+#screen_two {
+	margin-top: 115px;
+	background: #f8f8f8;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	height: 945px;
 }
 
-.space {
-	flex: 1;
-}
-
-.hww {
-	padding-bottom: 100px;
-	float: left;
-	box-sizing: border-box;
+#screen_two img {
 	position: relative;
-	z-index: 1;
+	left: 75px;
+	margin-bottom: 58px;
 }
 
-.hww img {
-	height:54px;
+.screen_two-text {
+	width: 696px;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 58px;
 }
 
-.hww1 {
-	width: 210px;
+.screen_two-text2 {
+	width: 720px;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 58px;
 }
 
-.hww2 {
-	width: 270px;
+.screen_two-block {
+	margin: 0 auto;
+	display: block;
+	width: 810px;
+	line-height: 1.8em;
 }
 
-.hww3 {
-	width: 240px;
-}
-
-.hww4 {
-	width: 215px;
-}
-
-.titlehww {
+.screen_two-block span {
 	font-family: 'Futura PT3';
-	font-size: 26px;
-	text-align: center;
-	margin-top: 40px;
-	font-weight: 500;
+	font-size: 21px;
 }
 
-.texthww {
-	font-family: 'Futura PT2';
-	font-size: 20px;
-	text-align: center;
-	margin-top: 8px;
-	line-height: 1.3em;
-	color: #5e5e5e;
-}
-
-.centr {
+.screen_two-block a {
 	text-align: center;
 }
-
-#screen_three {
-	height: 1070px;
-	background: #4f546b;
-	position: relative;
-	z-index: 1;
-}
-
-.rel {
-	position: relative;
-}
-
-.block1_screen_three {
-	position: relative;
-	left: 580px;
-}
-
-.block2_screen_three {
-	position: relative;
-	left: 0px;
-	width: 580px;
-}
-
-.block3_screen_three {
-	position: relative;
-	left: 580px;
-	width: 580px;
-}
-
-.block1_title {
-	padding-top: 80px;
-	font-family: 'Futura PT2';
-	font-size: 35px;
-	color: #f0f2f7;
-}
-
-.block3_title {
-	padding-top: 100px;
-	font-family: 'Futura PT2';
-	font-size: 35px;
-	color: #f0f2f7;
-}
-
-.block1_text {
-	padding-top: 15px;
-	font-family: 'Futura PT2';
-	font-size: 20px;
-	width: 580px;
-	color: #e4e7f5;
-	padding-bottom: 55px;
-}
-
-.block3_text {
-	padding-top: 15px;
-	font-family: 'Futura PT2';
-	font-size: 20px;
-	width: 580px;
-	color: #e4e7f5;
-	padding-bottom: 100px;
-}
-
-.block2_title {
-	padding-top: 100px;
-	font-family: 'Futura PT2';
-	font-size: 35px;
-	color: #f0f2f7;
-	text-align: right;
-}
-
-.block2_text {
-	padding-top: 15px;
-	font-family: 'Futura PT2';
-	font-size: 20px;
-	width: 580px;
-	color: #e4e7f5;
-	padding-bottom: 55px;
-	text-align: right;
-}
-
-.block1_img {
-	position: absolute;
-	left: 318px;
-	top: 220px;
-	z-index: -1;
-}
-
-.block2_img {
-	position: absolute;
-	left: 718px;
-	top: 530px;
-	z-index: -1;
-}
-
-.block3_img {
-	position: absolute;
-	left: 318px;
-	top: 805px;
-	z-index: -1;
-}
-
-#screen_four {
-	background: #f5f5f5;
-	height: 1320px;
-}
-
-
-.screen_four_title {
-	padding-top: 40px;
-	font-family: 'Futura PT2';
-	font-size: 26px;
-	letter-spacing: -0.008em;
-}
-
-.screen_four_text {
-	padding-top: 1px;
-	font-family: 'Futura PT2';
-	font-size: 16px;
-	color: #828282;
-	padding-bottom: 20px;
-}
-
-
-.time-block {
-	width: 370px;
-	height: 230px;
-	background: grey;
-	border-radius: 4px;
+.screen_two-block2 {
 	text-align: center;
-	line-height: 14em;
+	line-height: 1.8em;
+}
+.screen_two-block2 span {
+	font-family: 'Futura PT3';
+	font-size: 21px;
 }
 
-.time-block2 {
-	width: 270px;
-	height: 230px;
-	background: grey;
-	border-radius: 4px;
-	text-align: center;
-	line-height: 14em;
-}
-
-.four-colums:hover {
-	border-radius: 4px;
-	box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
-	filter: brightness(105%);
-}
-
-.four-colums:active {
-	border-radius: 4px;
-	filter: brightness(90%);
-}
-
-.four-colums2:hover {
-	border-radius: 4px;
-	box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
-	filter: brightness(105%);
-}
-
-.four-colums2:active {
-	border-radius: 4px;
-	filter: brightness(90%);
-}
-
-.time-block3 {
-	width: 170px;
-	height: 230px;
-	background: grey;
-	border-radius: 4px;
-	text-align: center;
-	line-height: 14em;
-}
-
-.four-colums {
-	margin-right: 30px;
+.gruz {
 	float: left;
-	margin-bottom: 30px;
-}
-
-.four-colums2 {
-	margin-right: 0px;
-	float: left;
-	margin-bottom: 40px;
-}
-
-table {
-	margin: 70px auto;
-	width: 953px;
-	margin-bottom: 55px;
-	border-collapse: collapse;
-	font-size: 20px;
-	font-family: 'Futura PT2';
-}
-
-td, th {
-	border-bottom: 1px solid #e6e6e6;
-	line-height: 4em;
-	padding-right: 22px;
-	padding-left: 22px;
-}
-
-td:nth-child(7,8) {
-	border: 0px;
-}
-
-td a {
-	text-decoration: none;
-	color: #0954ab;
-	user-select: none;
-}
-
-td a:hover {
-	color: #2275d4;
 
 }
 
-.th {
-	border-top: 1px solid #e6e6e6;
-	background: #f2f2f2;
-	font-size: 19px;
-	font-family: 'Futura PT2';
-}
-
-.th1 {
-	text-align: left;
-}
-
-.th2 {
-	text-align: right;
-}
-
-tr:hover {
-	background: #f5f8fc;
-}
-
-td span {
-	color: #737373;
-	font-size: 16px;
-}
-
-.screen_five-text {
-	margin-left: 107px;
-	float: left;
-	font-family: 'Futura PT2';
-	font-size: 20px;
-	padding-bottom: 100px;
-}
-
-.screen_five-text2 {
-	margin-right: 110px;
+.tcena {
 	float: right;
 }
 
-.screen_five-text2 a:hover {
-	color: #2275d4;
+.tcena2 {
+	display: flex;
+	justify-content: center;
 }
 
-.screen_five-text2 a {
-	font-family: 'Futura PT2';
+.bottom-transport {
 	font-size: 20px;
+	padding: 13px 23px;
+	background: #ffd33c;
+	color: #3c3c3c;
+	user-select: none;
+	border-radius: 4px;
 	text-decoration: none;
-	color: #0954ab;
-	user-select: none;	
+	letter-spacing: 0.02em;
+	transition: all 0.3s;
+	white-space: nowrap;
+	font-family: 'Futura PT2';
 }
+
+.bottom-transport:hover {
+	background: #f2c72c;
+}
+
+.bottom-transport:active {
+	background: #dbb735;
+}
+
+
+
+.centr {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+.centr2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+#screen_three {
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	height: 945px;
+}
+
+#screen_three img {
+	position: relative;
+	left: 325px;
+	margin-bottom: 58px;
+}
+
+#screen_four {
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	height: 945px;
+	background: #f8f8f8;
+}
+
+#screen_four img {
+	position: relative;
+	left: 260px;
+	margin-bottom: 58px;
+}
+
+#screen_five {
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	height: 945px;
+}
+
+#screen_five img {
+	position: relative;
+	left: 276px;
+	margin-bottom: 58px;
+}
+
 
 #screen_six {
 	background: #f5f5f5;
@@ -641,6 +483,10 @@ td span {
 	font-size: 14px;
 }
 
+.space {
+	flex: 1;
+}
+
 .logo2 {
 	font-family: 'Philosopher';
 	font-size: 24px;
@@ -660,7 +506,7 @@ td span {
 }
 
 .footer-block2 {
-	width: 170px;
+	width: 250px;
 }
 
 .footer-block2 a {
