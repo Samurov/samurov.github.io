@@ -245,11 +245,11 @@ h3 {
 }
 
 .bottom:hover {
-	background: #f2c72c;
+	background: #ffc71c;
 }
 
 .bottom:active {
-	background: #dbb735;
+	background: #ffc000;
 }
 
 .main_image {
@@ -363,27 +363,27 @@ h3 {
 }
 
 .bottom-transport {
-	font-size: 20px;
-	padding: 13px 23px;
+	font-size: 19px;
+	padding: 9px 20px;
 	background: #ffd33c;
 	color: #3c3c3c;
 	user-select: none;
 	border-radius: 4px;
 	text-decoration: none;
-	letter-spacing: 0.02em;
 	transition: all 0.3s;
 	white-space: nowrap;
 	font-family: 'Futura PT2';
 }
 
+
+
 .bottom-transport:hover {
-	background: #f2c72c;
+	background: #ffc71c;
 }
 
 .bottom-transport:active {
-	background: #dbb735;
+	background: #ffc000;
 }
-
 
 
 .centr {
@@ -395,7 +395,7 @@ h3 {
 .centr2 {
 	display: flex;
 	justify-content: center;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 #screen_three {
@@ -417,7 +417,7 @@ h3 {
 	color: #3c3c3c;
 	font-family: 'Futura PT2';
 	line-height: 1.5em;
-	height: 945px;
+	height: 895px;
 	background: #f8f8f8;
 }
 
