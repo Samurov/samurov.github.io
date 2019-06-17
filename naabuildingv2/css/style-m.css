@@ -1,16 +1,4 @@
 @font-face {
-    font-family: 'Futura PT4';
-    src: url('../fonts/FuturaPT-Bold.eot');
-    src: local('Futura PT Bold'), local('FuturaPT-Bold'),
-        url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/FuturaPT-Bold.woff') format('woff'),
-        url('../fonts/FuturaPT-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-@font-face {
     font-family: 'Futura PT3';
     src: url('../fonts/FuturaPT-Medium.eot');
     src: local('Futura PT Medium'), local('FuturaPT-Medium'),
@@ -103,22 +91,22 @@ img {
 
 }
 
-
 .n {
 	padding-top: 1px;
 	float: left;
 	padding-right: 10px;
 }
 
-.arrow {
-	position: absolute;
-	margin-left: 33px;
-}
 
 .navigation {
 	padding-top: 16px;
 	text-align: right;
 	user-select: none;
+}
+
+.arrow {
+	position: absolute;
+	margin-left: 33px;
 }
 
 .navigation2 {
@@ -156,12 +144,12 @@ img {
 }
 
 
-.menu:hover:nth-child(2) {
+.menu:hover:nth-child(1) {
 	color: #f5f5f5;
 	background: url(../images/2px.png) center left no-repeat;
 }
 
-.menu:hover:nth-child(3) {
+.menu:hover:nth-child(2) {
 	color: #f5f5f5;
 	background: url(../images/2px.png) center left no-repeat;
 }
@@ -172,18 +160,12 @@ img {
 
 
 
-.menu:active .menu1-1 {
-	background: url(../images/12px.png) center left no-repeat;
-	color: red;
-}
-
 .menu:active {
 	color: white;
 	transition: all 0s;
 }
 
 .menu1-1 {
-	margin-right: 50px;
 	text-decoration: none;
 	color: white;
 	font-weight: 400;
@@ -194,10 +176,6 @@ img {
 	background: url(../images/2px.png) center left no-repeat;
 }
 
-.menu:hover .menu1-1 {
-	background: url(../images/12px.png) center left no-repeat;
-	color: red;
-}
 
 .menu2 {
 	margin-right: 40px;
@@ -219,16 +197,13 @@ img {
 .menu2:active {
 	color: #c7c7c7;
 	transition: all 0s;
-
 }
-
-
 
 #screen_one {
+	max-width: 1170px;
 	margin: 0 auto;
+	position: relative;
 }
-
-
 
 .offe {
 	margin-top: 100px;
@@ -237,15 +212,12 @@ img {
 	float: left;
 }
 
-
-
 .bg1 {
 	position: absolute;
 	left: -280px;
 	top: -100px;
 	z-index: -2;
 }
-
 
 h1 {
 	font-family: 'Philosopher', sans-serif;
@@ -268,16 +240,21 @@ h2 {
 }
 
 h3 {
-	font-family: 'Futura PT3', sans-serif;
+	font-family: 'Futura PT2';
 	font-size: 25px;
-	font-weight: 500;
-	margin: 0;
-	padding:0;
+	color: #909090;
+	text-align: center;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 17px;
+
+
 }
 
 .offertext {
 	font-size: 16px;
-	width: 430px;
+	width: 480px;
 	margin-top: 22px;
 	margin-bottom: 50px;
 	line-height: 1.5em;
@@ -309,8 +286,17 @@ h3 {
 
 .main_image {
 	position: absolute;
-	left: 450px;
-	top: 190px;
+	left: 660px;
+	top: 130px;
+	z-index: -1;
+	max-width: 662px;
+	height: auto;
+}
+
+.offe img {
+	position: absolute;
+	top: 55px;
+	left: 10px;
 	z-index: -1;
 }
 
@@ -324,347 +310,173 @@ h3 {
 	margin: 0px;
 }
 
-#screen_two {
-	margin-top: 160px;
-	height: 100%;
-}
-
-
 .sticky {
   position: fixed;
   top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню */
   z-index: 101;
 }
 
-.block1 {
-	margin-top: 53px;
-	height: 170px;
-	width: 330px;
-	margin-left: 120px;
-	float: left;
+#screen_two {
+	margin-top: 115px;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	height: 100%;
+	margin-bottom: 80px;
 }
 
-.block2 {
-	margin-top: 53px;
-	height: 170px;
-	width: 390px;
-	margin-left: 275px;
-	float: left;
+#screen_two img {
+	position: relative;
+	left: 325px;
+	margin-bottom: 58px;
+	margin-top: 70px;
 }
 
-.block3 {
-	margin-top: 53px;
-	height: 170px;
-	width: 350px;
-	margin-left: 105px;
-	float: left;
+.screen_two-text {
+	width: 696px;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 58px;
 }
 
-.block4 {
-	margin-top: 53px;
-	height: 170px;
-	width: 370px;
-	margin-left: 270px;
-	float: left;
-	margin-bottom: 50px;
+.screen_two-text2 {
+	width: 720px;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 58px;
 }
 
-.number {
-	font-family: 'Futura PT4';
-	font-size: 100px;
-	color: #e5e5e5;
+.screen_two-block {
+	margin: 0 auto;
+	display: block;
+	width: 810px;
+	line-height: 1.8em;
+}
+
+.screen_two-block span {
+	font-family: 'Futura PT3';
+	font-size: 21px;
+}
+
+.screen_two-block a {
+	text-align: center;
+}
+.screen_two-block2 {
+	text-align: center;
+	line-height: 1.8em;
+}
+.screen_two-block2 span {
+	font-family: 'Futura PT3';
+	font-size: 21px;
+}
+
+.gruz {
 	float: left;
+	margin-left: 150px;
+
+}
+
+.tcena {
+	float: right;
+	margin-right: 80px;
+}
+
+.tcena2 {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-transport {
+	font-size: 19px;
+	padding: 9px 20px;
+	background: #ffd33c;
+	color: #3c3c3c;
 	user-select: none;
-
-}
-
-.titlehww {
-	font-family: 'Futura PT3';
-	font-size: 25px;
-	margin-left: 100px;
-}
-
-
-
-.texthww {
+	border-radius: 4px;
+	text-decoration: none;
+	transition: all 0.3s;
+	white-space: nowrap;
 	font-family: 'Futura PT2';
-	font-size: 20px;
-	line-height: 1.3em;
-	color: #5e5e5e;
-	margin-left: 100px;
-	padding-top: 8px;
-}
-
-.titlehww2 {
-	font-family: 'Futura PT3';
-	font-size: 25px;
-	margin-left: 120px;
 }
 
 
 
-.texthww2 {
-	font-family: 'Futura PT2';
-	font-size: 20px;
-	line-height: 1.3em;
-	color: #5e5e5e;
-	margin-left: 120px;
-	padding-top: 8px;
+.bottom-transport:hover {
+	background: #ffc71c;
 }
 
-.titlehww3 {
-	font-family: 'Futura PT3';
-	font-size: 25px;
-	margin-left: 115px;
+.bottom-transport:active {
+	background: #ffc000;
 }
 
 
-
-.texthww3 {
-	font-family: 'Futura PT2';
-	font-size: 20px;
-	line-height: 1.3em;
-	color: #5e5e5e;
-	margin-left: 115px;
-	padding-top: 8px;
+.centr {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
 }
 
-.lines {
-	position: absolute;
-	top: 200px;
-	z-index: -1;
-	opacity: 0.7;
+.centr2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
 }
 
 #screen_three {
-	height: 100%;
-}
-
-.screen-three-block1 {
-	position: relative;
-	margin-left: 20px;
-	width: 360px;
-	float: left;
-	border:0px solid black;
-	margin-top: 58px;
-	margin-bottom: 90px;
-}
-
-.screen-three-block2 {
-	position: relative;
-	margin-left: 50px;
-	width: 310px;
-	float: left;
-	border:0px solid black;
-	margin-top: 67px;
-}
-
-.screen-three-block3 {
-	position: relative;
-	margin-left: 60px;
-	width: 335px;
-	float: left;
-	border:0px solid black;
-	margin-top: 62px;
-}
-
-.screen-three-icons {
-	margin-bottom: 25px;
-}
-
-.screen-three-block1-text {
-	font-family: 'Futura PT2';
 	font-size: 20px;
-	line-height: 1.3em;
-	color: #5e5e5e;
-	margin-top: 11px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	height: 100%;
+	margin-bottom: 80px;
 }
 
-.yline {
-	position: absolute;
-	left: -17px;
-	top: 88px;
-}
-
-.yline2 {
-	position: absolute;
-	left: -17px;
-	top: 79px;
-}
-.yline3 {
-	position: absolute;
-	left: -17px;
-	top: 84px;
+#screen_three img {
+	position: relative;
+	left: 325px;
+	margin-bottom: 58px;
+	margin-top: 70px;
 }
 
 #screen_four {
-	height: 100%;
-	margin-bottom: 62px;
-}
-
-
-.screen_four_title {
-	margin-top: 53px;
-	font-family: 'Futura PT2';
-	font-size: 26px;
-	letter-spacing: -0.008em;
-}
-
-.screen_four_title2 {
-	padding-top: 0px;
-	font-family: 'Futura PT2';
-	font-size: 26px;
-	letter-spacing: -0.008em;
-}
-
-.screen_four_text {
-	font-family: 'Futura PT2';
-	font-size: 16px;
-	color: #828282;
-	padding-bottom: 10px;
-}
-
-
-.time-block {
-	width: 370px;
-	height: 230px;
-	background: grey;
-	border-radius: 4px;
-	text-align: center;
-	line-height: 14em;
-}
-
-.time-block2 {
-	width: 270px;
-	height: 230px;
-	background: grey;
-	border-radius: 4px;
-	text-align: center;
-	line-height: 14em;
-}
-
-.four-colums:hover {
-	border-radius: 4px;
-	box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
-	filter: brightness(105%);
-}
-
-.four-colums:active {
-	border-radius: 4px;
-	filter: brightness(90%);
-}
-
-.four-colums2:hover {
-	border-radius: 4px;
-	box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
-	filter: brightness(105%);
-}
-
-.four-colums2:active {
-	border-radius: 4px;
-	filter: brightness(90%);
-}
-
-.time-block3 {
-	width: 170px;
-	height: 230px;
-	background: grey;
-	border-radius: 4px;
-	text-align: center;
-	line-height: 14em;
-}
-
-.four-colums {
-	margin-right: 30px;
-	float: left;
-	margin-bottom: 30px;
-}
-
-.four-colums2 {
-	margin-right: 0px;
-	float: left;
-	margin-bottom: 30px;
-}
-
-table {
-	margin: 53px auto;
-	width: 953px;
-	margin-bottom: 50px;
-	border-collapse: collapse;
 	font-size: 20px;
+	color: #3c3c3c;
 	font-family: 'Futura PT2';
+	line-height: 1.5em;
+	height: 895px;
 }
 
-td, th {
-	border-bottom: 1px solid #e6e6e6;
-	line-height: 4em;
-	padding-right: 22px;
-	padding-left: 22px;
+#screen_four img {
+	position: relative;
+	left: 260px;
+	margin-bottom: 58px;
 }
 
-td:nth-child(7,8) {
-	border: 0px;
-}
-
-td a {
-	text-decoration: none;
-	color: #0954ab;
-	user-select: none;
-}
-
-td a:hover {
-	color: #2275d4;
-
-}
-
-.th {
-	border-top: 1px solid #e6e6e6;
-	background: #f2f2f2;
-	font-size: 19px;
-	font-family: 'Futura PT2';
-}
-
-.th1 {
-	text-align: left;
-}
-
-.th2 {
-	text-align: right;
-}
-
-tr:hover {
-	background: #f5f8fc;
-}
-
-td span {
-	color: #737373;
-	font-size: 16px;
-}
-
-.screen_five-text {
-	margin-left: 107px;
-	float: left;
-	font-family: 'Futura PT2';
+#screen_five {
 	font-size: 20px;
-	padding-bottom: 100px;
-}
-
-.screen_five-text2 {
-	margin-right: 110px;
-	float: right;
-}
-
-.screen_five-text2 a:hover {
-	color: #2275d4;
-}
-
-.screen_five-text2 a {
+	color: #3c3c3c;
 	font-family: 'Futura PT2';
-	font-size: 20px;
-	text-decoration: none;
-	color: #0954ab;
-	user-select: none;	
+	line-height: 1.5em;
+	height: 945px;
 }
+
+#screen_five img {
+	position: relative;
+	left: 276px;
+	margin-bottom: 58px;
+}
+
 
 #screen_six {
 	font-family: 'Futura PT2';
@@ -735,7 +547,7 @@ td span {
 }
 
 .footer-block2 {
-	width: 230px;
+	width: 220px;
 	margin-top: 12px;
 }
 
