@@ -44,7 +44,10 @@ article {
 }
 	
 img {
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .line {
@@ -53,11 +56,10 @@ img {
 }
 
 #header2 {
-	1background: #f5f5f5;
 	background: white;
 	height: 40px;
-	1background: rgba(242, 242, 242);
-	box-shadow: 0 0 2px rgba(0,0,0,0.06);
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.06);
+	        box-shadow: 0 0 2px rgba(0,0,0,0.06);
 
 }
 
@@ -80,11 +82,16 @@ img {
 .logo a {
 	margin: 12px auto auto 0px;
 	float: left;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 10px;
 	text-decoration: none;
 	color: #ffffff;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	padding-left: 0px;
 	font-weight: 500;
@@ -101,7 +108,10 @@ img {
 .navigation {
 	padding-top: 16px;
 	text-align: right;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .arrow {
@@ -113,7 +123,10 @@ img {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: left;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 	float: left;
 
 }
@@ -133,8 +146,10 @@ img {
 	color: #b4b4b4;
 	font-weight: 400;
 	font-size: 15px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	padding-left: 7px;
 	
 }
@@ -162,6 +177,8 @@ img {
 
 .menu:active {
 	color: white;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
 	transition: all 0s;
 }
 
@@ -171,8 +188,10 @@ img {
 	color: white;
 	font-weight: 400;
 	font-size: 15px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	padding-left: 7px;
 	background: url(../images/2px.png) center left no-repeat;
 }
@@ -184,6 +203,8 @@ img {
 	color: #3c3c3c;
 	font-weight: ;
 	font-size: 14px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
 
@@ -197,6 +218,8 @@ img {
 
 .menu2:active {
 	color: #c7c7c7;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
 	transition: all 0s;
 }
 
@@ -241,7 +264,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 25px;
 	color: #909090;
 	text-align: center;
@@ -268,17 +291,24 @@ h3 {
 	padding: 15px 33px;
 	background: #ffd33c;
 	color: black;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 	border-radius: 4px;
 	text-decoration: none;
 	letter-spacing: 0.02em;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	box-shadow: 0 0 30px rgba(255,211,60,0.5);
+	-webkit-box-shadow: 0 0 30px rgba(255,211,60,0.5);
+	        box-shadow: 0 0 30px rgba(255,211,60,0.5);
 }
 
 .bottom:hover {
 	background: #ffc917;
-	box-shadow: 0 0 15px rgba(255,211,60,0.5);
+	-webkit-box-shadow: 0 0 15px rgba(255,211,60,0.5);
+	        box-shadow: 0 0 15px rgba(255,211,60,0.5);
 }
 
 .bottom:active {
@@ -321,7 +351,7 @@ h3 {
 	margin-top: 115px;
 	font-size: 20px;
 	color: #3c3c3c;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	line-height: 1.5em;
 	height: 945px;
 }
@@ -336,7 +366,7 @@ h3 {
 	width: 696px;
 	font-size: 20px;
 	color: #3c3c3c;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	line-height: 1.5em;
 	text-align: center;
 	margin: 0 auto;
@@ -348,7 +378,7 @@ h3 {
 	width: 720px;
 	font-size: 20px;
 	color: #3c3c3c;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	line-height: 1.5em;
 	text-align: center;
 	margin: 0 auto;
@@ -364,7 +394,7 @@ h3 {
 }
 
 .screen_two-block span {
-	font-family: 'Futura PT3';
+	font-family: 'Futura PT3', sans-serif;
 	font-size: 21px;
 }
 
@@ -376,7 +406,7 @@ h3 {
 	line-height: 1.8em;
 }
 .screen_two-block2 span {
-	font-family: 'Futura PT3';
+	font-family: 'Futura PT3', sans-serif;
 	font-size: 21px;
 }
 
@@ -390,8 +420,12 @@ h3 {
 }
 
 .tcena2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .bottom-transport {
@@ -399,12 +433,17 @@ h3 {
 	padding: 9px 20px;
 	background: #ffd33c;
 	color: #3c3c3c;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 	border-radius: 4px;
 	text-decoration: none;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	white-space: nowrap;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 }
 
 
@@ -419,21 +458,29 @@ h3 {
 
 
 .centr {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-top: 150px;
 }
 
 .centr2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-top: 30px;
 }
 
 #screen_three {
 	font-size: 20px;
 	color: #3c3c3c;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	line-height: 1.5em;
 	height: 945px;
 }
@@ -447,7 +494,7 @@ h3 {
 #screen_four {
 	font-size: 20px;
 	color: #3c3c3c;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	line-height: 1.5em;
 	height: 895px;
 }
@@ -461,7 +508,7 @@ h3 {
 #screen_five {
 	font-size: 20px;
 	color: #3c3c3c;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	line-height: 1.5em;
 	height: 945px;
 }
@@ -474,7 +521,7 @@ h3 {
 
 
 #screen_six {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 }
 
 .screen_six-text {
@@ -487,14 +534,14 @@ h3 {
 	font-size: 26px;
 	padding-top: 30px;
 	text-align: center;
-	font-family: 'Futura PT3'
+	font-family: 'Futura PT3', sans-serif;
 }
 
 .screen_six-text3 {
 	font-size: 20px;
 	padding-top: 1px;
 	text-align: center;
-	font-family: 'Futura PT2'
+	font-family: 'Futura PT2', sans-serif;
 	color: #666666;
 }
 
@@ -502,7 +549,7 @@ h3 {
 	font-size: 18px;
 	padding-top: 30px;
 	text-align: center;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	padding-bottom: 150px;
 	color: #666666;
 }
@@ -510,7 +557,7 @@ h3 {
 #footer {
 	height: 100%;
 	background: #28282c;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 
@@ -519,11 +566,14 @@ h3 {
 .logo2 a {
 	margin: 12px auto auto 0px;
 	float: left;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 	text-decoration: none;
 	color: #ffffff;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 	padding-left: 0px;
 	font-weight: 400;
 	line-height: 2em;
@@ -550,14 +600,20 @@ h3 {
 	line-height: 2em;
 	text-decoration: none;
 	color: #e5e5e5;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .footer-block2 a:hover {
 	line-height: 2em;
 	text-decoration: underline;
 	color: #e5e5e5;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .footer-block2 div {
@@ -584,6 +640,8 @@ h3 {
 
 .footer-block {
 	padding-top: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	padding-bottom: 25px;
 }
@@ -595,7 +653,9 @@ h3 {
 }
 
 .space {
-	flex: 1;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
 }
 
 .n2 {

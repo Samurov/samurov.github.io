@@ -56,7 +56,10 @@ article {
 }
 	
 img {
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .line {
@@ -65,11 +68,10 @@ img {
 }
 
 #header2 {
-	1background: #f5f5f5;
 	background: white;
 	height: 40px;
-	1background: rgba(242, 242, 242);
-	box-shadow: 0 0 2px rgba(0,0,0,0.06);
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.06);
+	        box-shadow: 0 0 2px rgba(0,0,0,0.06);
 
 }
 
@@ -92,11 +94,16 @@ img {
 .logo a {
 	margin: 12px auto auto 0px;
 	float: left;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 10px;
 	text-decoration: none;
 	color: #ffffff;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	padding-left: 0px;
 	font-weight: 500;
@@ -118,14 +125,20 @@ img {
 .navigation {
 	padding-top: 16px;
 	text-align: right;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .navigation2 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: left;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 	float: left;
 
 }
@@ -145,8 +158,10 @@ img {
 	color: #b4b4b4;
 	font-weight: 400;
 	font-size: 15px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	padding-left: 7px;
 	
 }
@@ -179,6 +194,8 @@ img {
 
 .menu:active {
 	color: white;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
 	transition: all 0s;
 }
 
@@ -188,6 +205,8 @@ img {
 	color: white;
 	font-weight: 400;
 	font-size: 15px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
 	font-family: 'Montserrat';
 	padding-left: 7px;
@@ -205,6 +224,8 @@ img {
 	color: #3c3c3c;
 	font-weight: ;
 	font-size: 14px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
 
@@ -218,6 +239,8 @@ img {
 
 .menu2:active {
 	color: #c7c7c7;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
 	transition: all 0s;
 
 }
@@ -290,17 +313,24 @@ h3 {
 	padding: 15px 33px;
 	background: #ffd33c;
 	color: black;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 	border-radius: 4px;
 	text-decoration: none;
 	letter-spacing: 0.02em;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	box-shadow: 0 0 30px rgba(255,211,60,0.5);
+	-webkit-box-shadow: 0 0 30px rgba(255,211,60,0.5);
+	        box-shadow: 0 0 30px rgba(255,211,60,0.5);
 }
 
 .bottom:hover {
 	background: #ffc917;
-	box-shadow: 0 0 15px rgba(255,211,60,0.5);
+	-webkit-box-shadow: 0 0 15px rgba(255,211,60,0.5);
+	        box-shadow: 0 0 15px rgba(255,211,60,0.5);
 }
 
 .bottom:active {
@@ -370,16 +400,19 @@ h3 {
 }
 
 .number {
-	font-family: 'Futura PT4';
+	font-family: 'Futura PT4', sans-serif;
 	font-size: 100px;
 	color: #e5e5e5;
 	float: left;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 
 }
 
 .titlehww {
-	font-family: 'Futura PT3';
+	font-family: 'Futura PT3', sans-serif;
 	font-size: 25px;
 	margin-left: 100px;
 }
@@ -387,7 +420,7 @@ h3 {
 
 
 .texthww {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 20px;
 	line-height: 1.3em;
 	color: #5e5e5e;
@@ -396,7 +429,7 @@ h3 {
 }
 
 .titlehww2 {
-	font-family: 'Futura PT3';
+	font-family: 'Futura PT3', sans-serif;
 	font-size: 25px;
 	margin-left: 120px;
 }
@@ -404,7 +437,7 @@ h3 {
 
 
 .texthww2 {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 20px;
 	line-height: 1.3em;
 	color: #5e5e5e;
@@ -413,7 +446,7 @@ h3 {
 }
 
 .titlehww3 {
-	font-family: 'Futura PT3';
+	font-family: 'Futura PT3', sans-serif;
 	font-size: 25px;
 	margin-left: 115px;
 }
@@ -421,7 +454,7 @@ h3 {
 
 
 .texthww3 {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 20px;
 	line-height: 1.3em;
 	color: #5e5e5e;
@@ -473,7 +506,7 @@ h3 {
 }
 
 .screen-three-block1-text {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 20px;
 	line-height: 1.3em;
 	color: #5e5e5e;
@@ -505,20 +538,20 @@ h3 {
 
 .screen_four_title {
 	margin-top: 53px;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 26px;
 	letter-spacing: -0.008em;
 }
 
 .screen_four_title2 {
 	padding-top: 0px;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 26px;
 	letter-spacing: -0.008em;
 }
 
 .screen_four_text {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 16px;
 	color: #828282;
 	padding-bottom: 10px;
@@ -545,24 +578,30 @@ h3 {
 
 .four-colums:hover {
 	border-radius: 4px;
-	box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
-	filter: brightness(105%);
+	-webkit-box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
+	        box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
+	-webkit-filter: brightness(105%);
+	        filter: brightness(105%);
 }
 
 .four-colums:active {
 	border-radius: 4px;
-	filter: brightness(90%);
+	-webkit-filter: brightness(90%);
+	        filter: brightness(90%);
 }
 
 .four-colums2:hover {
 	border-radius: 4px;
-	box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
-	filter: brightness(105%);
+	-webkit-box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
+	        box-shadow: 0px 0.5px 3px rgba(0,0,0,0.5);
+	-webkit-filter: brightness(105%);
+	        filter: brightness(105%);
 }
 
 .four-colums2:active {
 	border-radius: 4px;
-	filter: brightness(90%);
+	-webkit-filter: brightness(90%);
+	        filter: brightness(90%);
 }
 
 .time-block3 {
@@ -592,7 +631,7 @@ table {
 	margin-bottom: 50px;
 	border-collapse: collapse;
 	font-size: 20px;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 }
 
 td, th {
@@ -609,7 +648,10 @@ td:nth-child(7,8) {
 td a {
 	text-decoration: none;
 	color: #0954ab;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 td a:hover {
@@ -621,7 +663,7 @@ td a:hover {
 	border-top: 1px solid #e6e6e6;
 	background: #f2f2f2;
 	font-size: 19px;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 }
 
 .th1 {
@@ -644,7 +686,7 @@ td span {
 .screen_five-text {
 	margin-left: 107px;
 	float: left;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 20px;
 	padding-bottom: 100px;
 }
@@ -659,15 +701,18 @@ td span {
 }
 
 .screen_five-text2 a {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	font-size: 20px;
 	text-decoration: none;
 	color: #0954ab;
-	user-select: none;	
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;	
 }
 
 #screen_six {
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 }
 
 .screen_six-text {
@@ -680,14 +725,14 @@ td span {
 	font-size: 26px;
 	padding-top: 30px;
 	text-align: center;
-	font-family: 'Futura PT3'
+	font-family: 'Futura PT3', sans-serif;
 }
 
 .screen_six-text3 {
 	font-size: 20px;
 	padding-top: 1px;
 	text-align: center;
-	font-family: 'Futura PT2'
+	font-family: 'Futura PT2', sans-serif;
 	color: #666666;
 }
 
@@ -695,7 +740,7 @@ td span {
 	font-size: 18px;
 	padding-top: 30px;
 	text-align: center;
-	font-family: 'Futura PT2';
+	font-family: 'Futura PT2', sans-serif;
 	padding-bottom: 150px;
 	color: #666666;
 }
@@ -703,7 +748,7 @@ td span {
 #footer {
 	height: 100%;
 	background: #28282c;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 
@@ -712,11 +757,14 @@ td span {
 .logo2 a {
 	margin: 12px auto auto 0px;
 	float: left;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 	text-decoration: none;
 	color: #ffffff;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 	padding-left: 0px;
 	font-weight: 400;
 	line-height: 2em;
@@ -743,14 +791,20 @@ td span {
 	line-height: 2em;
 	text-decoration: none;
 	color: #e5e5e5;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .footer-block2 a:hover {
 	line-height: 2em;
 	text-decoration: underline;
 	color: #e5e5e5;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .footer-block2 div {
@@ -777,6 +831,8 @@ td span {
 
 .footer-block {
 	padding-top: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	padding-bottom: 25px;
 }
@@ -788,7 +844,9 @@ td span {
 }
 
 .space {
-	flex: 1;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
 }
 
 .n2 {
