@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Укладка тротуарной плитки под ключ Коростень</title>
+	<title>Укладка тротуарной плитки под ключ в Коростене</title>
 	<meta name="description" content="Cпециализируемся на укладке тротуарной плитки. Организовываем весь процесс сами. Заказчику не обязательно находиться на участке.">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Philosopher:700&amp;subset=cyrillic" rel="stylesheet">
@@ -235,23 +235,19 @@
 			<div class="screen_five-text">Конечная цена зависит от сложности участка.</div>
 			<div class="screen_five-text2"><a href="https://docs.google.com/spreadsheets/d/1c4LZYI4I7Y_0sIXrAS-96WbXVvhK6PgzV8y_Cxwd3ig/edit?usp=sharing">Посмотреть весь прейскурант услуг</a></div>
 			<div class="clear"></div>
+			<span class="centr"><button>Заказать укладку</button></span>
+			<div class="clear"></div>
 		</article>
 	</section>
 	<section id="screen_six">
 		<article>
 			<h2> Контакты</h2>
-			<div class="screen_six-text">Для того что бы заказать услугу, обращайтесь по этому номеру:</div>
+			
 			<div class="screen_six-text2">+38 (067) 24 556 44</div>
 			<div class="screen_six-text3">Александр Анатолиевич</div>
-			<div class="screen_six-text4">Улица Сосновского 39,<br>
+			<div class="screen_six-text">help@fop-nikolaychuk.com</div>
+			<div class="screen_six-text4">Сосновского 39,
 			Коростень</div>
-			<form action="send.php" method="post">
-
-Ваше имя <input type="text" name="first_name"><br>
-Email: <input type="text" name="email" required placeholder="Обязательное поле"><br>
-Сообщение:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-<input type="submit" name="submit" value="Submit">
-</form>
 		</article>
 	</section>
 	<section id="footer">
@@ -287,7 +283,26 @@ Email: <input type="text" name="email" required placeholder="Обязатель�
 			</div>
 		</article>
 	</section>
+	<!-- modal -->
+<div class="modal-overlay">
+  <div class="modal">
+    <a class="close-modal">
+      <svg viewBox="0 0 20 20">
+        <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+      </svg>
+    </a><!-- close modal -->
 
+    <div class="modal-content">
+	<div class="modalh3">Для заказа услуги, звоните по этому номеру</div>
+      <div class="modalnumber"><a href="tel:0931890305">+38 (067) 24 556 44</a></div>
+      <div class="modalnumbername">Александр Анатолиевич</div>
+    </div><!-- content -->
+    
+  </div><!-- modal -->
+</div><!-- overlay -->
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+<script src="js/index.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
 <script>
 (function(){  // анонимная функция (function(){ })(), чтобы переменные "a" и "b" не стали глобальными
 var a = document.querySelector('#header2'), b = null;  // селектор блока, который нужно закрепить
@@ -323,6 +338,5 @@ function Ascroll() {
 }
 })()
 </script>
-
 </body>
 </html>

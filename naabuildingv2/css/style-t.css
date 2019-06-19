@@ -526,15 +526,16 @@ h3 {
 
 .screen_six-text {
 	font-size: 20px;
-	padding-top: 40px;
+	padding-top: 30px;
 	text-align: center;
 }
 
 .screen_six-text2 {
-	font-size: 26px;
-	padding-top: 30px;
+	font-size: 20px;
+	padding-top: 40px;
 	text-align: center;
-	font-family: 'Futura PT3', sans-serif;
+	font-family: 'Futura PT2', sans-serif;
+	letter-spacing: 0.08em;
 }
 
 .screen_six-text3 {
@@ -542,18 +543,15 @@ h3 {
 	padding-top: 1px;
 	text-align: center;
 	font-family: 'Futura PT2', sans-serif;
-	color: #666666;
 }
 
 .screen_six-text4 {
-	font-size: 18px;
-	padding-top: 30px;
+	font-size: 20px;
+	padding-top: 5px;
 	text-align: center;
 	font-family: 'Futura PT2', sans-serif;
 	padding-bottom: 150px;
-	color: #666666;
 }
-
 #footer {
 	height: 100%;
 	background: #28282c;
@@ -835,8 +833,36 @@ button:focus {
 
 
 .modalh3 {
-	font-size: 70px;
-	font-family: 'Futura PT3', sans-serif;
+	font-size: 25px;
+	font-family: 'Futura PT2', sans-serif;
 	color: black;
 	margin-bottom: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+.modalnumber {
+	font-size: 25px;
+	font-family: 'Futura PT3', sans-serif;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.01em;
+
+}
+
+.modalnumber a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: 0.08em;
+}
+
+.modalnumbername {
+	font-size: 25px;
+	font-family: 'Futura PT2', sans-serif;
+	color: black;
+	text-decoration: none;
+	text-align: center;
 }
