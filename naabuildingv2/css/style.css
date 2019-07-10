@@ -1150,6 +1150,14 @@ details[open] div {
 
 
 
+@media screen and (max-width: 315px) {
+
+.logo span {
+	display: none;
+}
+
+}
+
 
 @media screen and (max-width: 480px) {
 
@@ -1177,8 +1185,8 @@ article {
 
 h1 {
 	font-family: 'Philosopher', sans-serif;
-	font-size: 40px;
-	line-height: 1em;
+	font-size: 35px;
+	line-height: 0.9em;
 	border: 0px solid black;
 	margin: 0px;
 	color: #3c3c3c;
@@ -1223,6 +1231,14 @@ h1 {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
+}
+
+.main_image {
+	position: absolute;
+	left: -100px;
+	top: 150px;
+	z-index: -1;
+	opacity: 0.3;
 }
 
 }
