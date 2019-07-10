@@ -39,6 +39,18 @@
   right: 15px;
 }
 
+@media screen and (max-width: 480px) {
+
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 60px;
+}
+
+}
+
 #nprogress .spinner-icon {
   width: 18px;
   height: 18px;
