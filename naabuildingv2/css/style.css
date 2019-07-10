@@ -1177,13 +1177,19 @@ article {
 
 h1 {
 	font-family: 'Philosopher', sans-serif;
-	font-size: 43px;
-	letter-spacing: 0.04em;
+	font-size: 40px;
 	line-height: 1em;
 	border: 0px solid black;
 	margin: 0px;
 	color: #3c3c3c;
 	text-align: center;
+}
+
+.offe {
+	margin-top: 60px;
+	border: 0px solid black;
+	margin-left: 0px;
+	float: left;
 }
 
 .offertext {
@@ -1196,6 +1202,7 @@ h1 {
 	text-align: center;
 
 }
+
 
 .navigation, .navigation2, .navigation3 {
 	display: none;
