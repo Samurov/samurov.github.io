@@ -1196,6 +1196,17 @@ h1 {
 	text-align: center;
 }
 
+
+h2 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 30px;
+	letter-spacing: 0.04em;
+	border: 0px solid black;
+	margin: 0px;
+	padding-top: 98px;
+	text-align: center;
+}
+
 .offe {
 	margin-top: 60px;
 	border: 0px solid black;
@@ -1318,6 +1329,16 @@ h1 {
   background-color: #4d4d4d;
 }
 
+.menu__item2 {
+	display: block;
+  padding: 12px 24px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+	color: #727272;
+}
+
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
@@ -1351,6 +1372,108 @@ h1 {
 }
 .menu__item {
   transition-duration: .25s;
+}
+
+#screen_two {
+	margin-top: 0px;
+	height: 100%;
+
+}
+
+.block1 {
+	margin-top: 50px;
+	height: 100%;
+	width: 100%;
+	margin-left: 0px;
+
+}
+
+.block2 {
+	margin-top: 50px;
+	height: 100%;
+	width: 100%;
+	margin-left: 0px;
+
+}
+
+.block3 {
+	margin-top: 50px;
+	height: 100%;
+	width: 100%;
+	margin-left: 0px;
+
+}
+
+.block4 {
+	margin-top: 50px;
+	height: 100%;
+	width: 100%;
+	margin-left: 0px;
+}
+
+.number {
+	display: none;
+}
+
+.lines {
+	display: none;
+}
+
+.titlehww {
+	font-family: 'Futura PT3', sans-serif;
+	font-size: 23px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+
+
+.texthww {
+	font-family: 'Futura PT2', sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+	color: #5e5e5e;
+	margin-left: 0px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+.titlehww2 {
+	font-family: 'Futura PT3', sans-serif;
+	font-size: 23px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+
+
+.texthww2 {
+	font-family: 'Futura PT2', sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+	color: #5e5e5e;
+	margin-left: 0px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+.titlehww3 {
+	font-family: 'Futura PT3', sans-serif;
+	font-size: 23px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+
+
+.texthww3 {
+	font-family: 'Futura PT2', sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+	color: #5e5e5e;
+	margin-left: 0px;
+	padding-top: 8px;
+	text-align: center;
 }
 
 }
