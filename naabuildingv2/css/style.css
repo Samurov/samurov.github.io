@@ -1591,6 +1591,7 @@ h2 {
 .mobile span {
 	color: #737373;
 	font-size: 16px;
+white-space: nowrap;
 }
 
 .mobile a {
