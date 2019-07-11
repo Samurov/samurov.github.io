@@ -1490,8 +1490,8 @@ h2 {
 	width: 100%px;
 	float: left;
 	border:0px solid black;
-	margin-top: 58px;
-	margin-bottom: 90px;
+	margin-top: 50px;
+	margin-bottom: 0px;
 }
 
 .screen-three-block2 {
@@ -1500,7 +1500,7 @@ h2 {
 	width: 100%;
 	float: left;
 	border:0px solid black;
-	margin-top: 67px;
+	margin-top: 50px;
 }
 
 .screen-three-block3 {
@@ -1509,11 +1509,17 @@ h2 {
 	width: 100%;
 	float: left;
 	border:0px solid black;
-	margin-top: 62px;
+	margin-top: 50px;
 }
 
-.yline, yline2, yline3 {
+.yline, .yline2, .yline3 {
 
 display: none;
 }
+
+.screen-three-icons {
+	margin-bottom: 25px;
+margin: 0px auto 25px;
+}
+
 }
