@@ -1152,6 +1152,10 @@ details[open] div {
 	display: none;
 }
 
+.mobile {
+	display: none;
+}
+
 
 @media screen and (max-width: 330px) {
 
@@ -1513,13 +1517,12 @@ h2 {
 }
 
 .yline, .yline2, .yline3 {
-
-display: none;
+	display: none;
 }
 
 .screen-three-icons {
 	margin-bottom: 25px;
-margin: 0px auto 25px;
+	margin: 0px auto 25px;
 }
 
 
@@ -1529,7 +1532,7 @@ margin: 0px auto 25px;
 	font-family: 'Futura PT2', sans-serif;
 	font-size: 26px;
 	letter-spacing: -0.008em;
-  text-align: center;  
+ 	text-align: center;  
 }
 
 .screen_four_title2 {
@@ -1537,7 +1540,7 @@ margin: 0px auto 25px;
 	font-family: 'Futura PT2', sans-serif;
 	font-size: 26px;
 	letter-spacing: -0.008em;
- text-align: center;
+	text-align: center;
 
 }
 
@@ -1546,7 +1549,7 @@ margin: 0px auto 25px;
 	font-size: 16px;
 	color: #828282;
 	padding-bottom: 10px;
- text-align: center;
+	text-align: center;
 
 }
 
@@ -1554,20 +1557,114 @@ margin: 0px auto 25px;
 	margin-right: 0px;
 	float: none;
 	margin-bottom: 15px;
-Width: 100%;
-Height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .four-colums2 {
 	margin-right: 0px;
 	float: none;
 	margin-bottom: 15px;
-Width: 100%;
-Height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .fc2 {
 	margin-top: 0px;
+}
+
+.desktop {
+	display: none;
+}
+
+.mobile {
+	display: block;
+	text-align: center;
+	margin-top: 53px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Futura PT2', sans-serif;
+	line-height: 1.7em;
+	background: #f5f8fc;
+}
+
+.mobile span {
+	color: #737373;
+	font-size: 16px;
+}
+
+.mobile a {
+	text-decoration: none;
+	color: #0954ab;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.mobile a:hover {
+	color: #2275d4;
+
+}
+
+.mobile-line {
+	margin-top: 20px;
+	border: none; /* Убираем границу */
+    background-color: #e6e6e6; /* Цвет линии */
+    color: #e6e6e6; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+}
+
+.mobile-line1, .mobile-line2  {
+	margin-top: 20px;
+	border: none; /* Убираем границу */
+    background-color: #e6e6e6; /* Цвет линии */
+    color: #e6e6e6; /* Цвет линии для IE6-7 */
+    height: 0px; /* Толщина линии */
+}
+
+.screen_five-text {
+	margin-left: 0px;
+	font-family: 'Futura PT2', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	float: none;
+	line-height: 1.7em;
+}
+
+.screen_five-text2 {
+	margin-right: 0px;
+	text-align: center;
+	float: none;
+	line-height: 1.7em;
+}
+
+
+.screen_five-text2 a {
+	font-family: 'Futura PT2', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #0954ab;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;	
+}
+
+.centr {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+#screen_four {
+	height: 100%;
+	margin-bottom: 0px;
 }
 
 }
