@@ -1157,6 +1157,14 @@ details[open] div {
 }
 
 
+.yeline {
+	display: none;
+}
+
+.footer-block23 {
+	display: none;
+}
+
 @media screen and (max-width: 330px) {
 
 .logo span {
@@ -1669,7 +1677,7 @@ white-space: nowrap;
 }
 
 .yeline {
-
+display: block;
 	margin: 0px;
 margin-top: 5px;
 	border: none; /* Убираем границу */
@@ -1679,4 +1687,73 @@ margin-top: 5px;
 width: 15%;
 float: left;
 }
+
+.footer-block {
+	display: none;
+}
+
+.footer-block23 {
+	padding-top: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: block;
+	padding-bottom: 10px;
+
+}
+
+.footer-block24 {
+	width: 230px;
+	padding-top: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer-block24 a {
+	line-height: 2em;
+	text-decoration: none;
+	color: #e5e5e5;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.footer-block243 a:hover {
+	line-height: 2em;
+	text-decoration: underline;
+	color: #e5e5e5;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.footer-block24 div {
+	color: #ababab;
+	line-height: 2em;
+
+
+}
+
+
+.footer-block33 {
+	width: 200px;
+	padding-top: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer-text22 {
+	padding-top: 20px;
+	color: #ababab;
+	line-height: 2em;
+	text-align: center;
+}
+
+.space {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0;
+	        flex: 0;
+}
+
 }
