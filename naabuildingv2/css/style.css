@@ -1671,11 +1671,12 @@ white-space: nowrap;
 .yeline {
 
 	margin: 0px;
+margin-top: 5px;
 	border: none; /* Убираем границу */
     background-color: #ffd33c; /* Цвет линии */
     color: #ffd33c; /* Цвет линии для IE6-7 */
     height: 2px;
-width: 30%;
+width: 15%;
 float: left;
 }
 }
