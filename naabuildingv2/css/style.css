@@ -1522,4 +1522,28 @@ display: none;
 margin: 0px auto 25px;
 }
 
+h3 {
+	font-family: 'Futura PT3', sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+	padding:0
+text-align: center;
+}
+
+h3 a {
+	font-family: 'Futura PT3', sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+	padding:0;
+	text-decoration: none;
+	color: #4d4d4d;
+  text-align: center;      
+}
+
+h3 a:hover {
+	color: #747474;
+}
+
 }
