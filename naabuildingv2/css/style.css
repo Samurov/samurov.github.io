@@ -1484,4 +1484,35 @@ h2 {
 	text-align: center;
 }
 
+.screen-three-block1 {
+	position: relative;
+	margin-left: 0px;
+	width: 100%px;
+	float: left;
+	border:0px solid black;
+	margin-top: 58px;
+	margin-bottom: 90px;
+}
+
+.screen-three-block2 {
+	position: relative;
+	margin-left: 0px;
+	width: 100%;
+	float: left;
+	border:0px solid black;
+	margin-top: 67px;
+}
+
+.screen-three-block3 {
+	position: relative;
+	margin-left: 0px;
+	width: 100%;
+	float: left;
+	border:0px solid black;
+	margin-top: 62px;
+}
+
+.yline1, yline2, yline3 {
+
+display: none;
 }
