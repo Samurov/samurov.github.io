@@ -1668,4 +1668,13 @@ white-space: nowrap;
 	margin-bottom: 0px;
 }
 
+.yeline {
+
+	margin-top: 20px;
+	border: none; /* Убираем границу */
+    background-color: #e6e6e6; /* Цвет линии */
+    color: #ffd33c; /* Цвет линии для IE6-7 */
+    height: 2px;
+width: 30%;
+}
 }
