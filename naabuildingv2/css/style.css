@@ -1550,4 +1550,20 @@ margin: 0px auto 25px;
 
 }
 
+.four-colums {
+	margin-right: 0px;
+	float: none;
+	margin-bottom: 15px;
+Width: 100%;
+Height: auto;
+}
+
+.four-colums2 {
+	margin-right: 0px;
+	float: none;
+	margin-bottom: 15px;
+Width: 100%;
+Height: auto;
+}
+
 }
