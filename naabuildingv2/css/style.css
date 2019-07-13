@@ -1629,6 +1629,7 @@ white-space: nowrap;
 .mobile a {
 	text-decoration: none;
 	color: #0954ab;
+	line-height: 2.2em;
 	-webkit-user-select: none;
 	   -moz-user-select: none;
 	    -ms-user-select: none;
@@ -1701,15 +1702,15 @@ white-space: nowrap;
 }
 
 .yeline {
-display: block;
+	display: block;
 	margin: 0px;
-margin-top: 5px;
+	margin-top: 5px;
 	border: none; /* Убираем границу */
     background-color: #ffd33c; /* Цвет линии */
     color: #ffd33c; /* Цвет линии для IE6-7 */
     height: 2px;
-width: 15%;
-float: left;
+	width: 15%;
+	float: left;
 }
 
 .footer-block {
@@ -1778,6 +1779,21 @@ float: left;
 	-webkit-box-flex: 0;
 	    -ms-flex: 0;
 	        flex: 0;
+}
+
+.not-active {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+}
+
+#footer {
+	height: 100%;
+	background: #28282c;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+
 }
 
 }
