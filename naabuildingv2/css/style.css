@@ -631,6 +631,27 @@ h3 a:hover {
 	margin-right: 30px;
 	float: left;
 	margin-bottom: 15px;
+	border-radius: 4px;
+}
+
+.image-1 {
+	width: 370px;
+	height: 230px;
+
+}
+
+.image-2 {
+	width: 270px;
+	height: 230px;	
+}
+
+.image-3 {
+	width: 170px;
+	height: 230px;
+}
+
+.radius {
+	
 }
 
 .fc2 {
@@ -641,6 +662,7 @@ h3 a:hover {
 	margin-right: 0px;
 	float: left;
 	margin-bottom: 15px;
+	border-radius: 4px;
 }
 
 .f15 {
@@ -1568,6 +1590,8 @@ h2 {
 	width: 100%;
 	height: auto;
 }
+
+
 
 .four-colums2 {
 	margin-right: 0px;
