@@ -1,40 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Philosopher:700&display=swap&subset=cyrillic');
-
 @font-face {
     font-family: 'Futura PT4';
-    src: url('../fonts/FuturaPT-Bold.eot');
+    src: url('../css/FuturaPT-Bold.eot');
     src: local('Futura PT Bold'), local('FuturaPT-Bold'),
-        url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/FuturaPT-Bold.woff') format('woff'),
-        url('../fonts/FuturaPT-Bold.ttf') format('truetype');
+        url('../css/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../css/FuturaPT-Bold.woff') format('woff'),
+        url('../css/FuturaPT-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
 }
 
 
 @font-face {
     font-family: 'Futura PT3';
-    src: url('../fonts/FuturaPT-Medium.eot');
+    src: url('../css/FuturaPT-Medium.eot');
     src: local('Futura PT Medium'), local('FuturaPT-Medium'),
-        url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/FuturaPT-Medium.woff') format('woff'),
-        url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+        url('../css/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../css/FuturaPT-Medium.woff') format('woff'),
+        url('../css/FuturaPT-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Futura PT2';
-    src: url('../fonts/FuturaPT-Book.eot');
+    src: url('../css/FuturaPT-Book.eot');
     src: local('Futura PT Book'), local('FuturaPT-Book'),
-        url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/FuturaPT-Book.woff') format('woff'),
-        url('../fonts/FuturaPT-Book.ttf') format('truetype');
+        url('../css/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('../css/FuturaPT-Book.woff') format('woff'),
+        url('../css/FuturaPT-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 body {
@@ -112,7 +107,6 @@ img {
 	transition: all 0.3s;
 	padding-left: 0px;
 	font-weight: 500;
-	white-space: nowrap;
 
 }
 
@@ -228,6 +222,7 @@ img {
 	margin-right: 40px;
 	text-decoration: none;
 	color: #3c3c3c;
+	font-weight: ;
 	font-size: 14px;
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
@@ -690,6 +685,10 @@ td, th {
 	padding-left: 22px;
 }
 
+td:nth-child(7,8) {
+	border: 0px;
+}
+
 td a {
 	text-decoration: none;
 	color: #0954ab;
@@ -811,7 +810,6 @@ td span {
 	padding-left: 0px;
 	font-weight: 400;
 	line-height: 2em;
-	white-space: nowrap;
 
 }
 
@@ -1232,9 +1230,6 @@ h1 {
 	text-align: center;
 }
 
-h1 br {
-	display: none;
-}
 
 h2 {
 	font-family: 'Philosopher', sans-serif;
@@ -1262,10 +1257,6 @@ h2 {
 	border: 0px solid black;
 	text-align: center;
 
-}
-
-.offertext br {
-	display: none;
 }
 
 
@@ -1525,7 +1516,7 @@ h2 {
 .screen-three-block1 {
 	position: relative;
 	margin-left: 0px;
-	width: 100%;
+	width: 100%px;
 	float: left;
 	border:0px solid black;
 	margin-top: 50px;

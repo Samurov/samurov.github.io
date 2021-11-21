@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Philosopher:700&display=swap&subset=cyrillic');
+
 @font-face {
     font-family: 'Futura PT3';
     src: url('../fonts/FuturaPT-Medium.eot');
@@ -95,6 +97,7 @@ img {
 	transition: all 0.3s;
 	padding-left: 0px;
 	font-weight: 500;
+	white-space: nowrap;
 
 }
 
@@ -200,7 +203,6 @@ img {
 	margin-right: 40px;
 	text-decoration: none;
 	color: #3c3c3c;
-	font-weight: ;
 	font-size: 14px;
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
@@ -581,6 +583,7 @@ h3 {
 	padding-left: 0px;
 	font-weight: 400;
 	line-height: 2em;
+	white-space: nowrap;
 
 }
 
@@ -868,4 +871,515 @@ button:focus {
 	color: black;
 	text-decoration: none;
 	text-align: center;
+}
+
+.hamburger-menu {
+	display: none;
+}
+
+.hamburger-menu {
+	display: none;
+}
+
+.footer-block23 {
+	display: none;
+}
+
+@media screen and (max-width: 330px) {
+
+.logo span {
+	display: none;
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: #4d4d4d;
+	overflow-x: hidden;
+	min-width: 100%;
+}
+
+html {
+	scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+    overflow-x: hidden;
+}
+
+
+article {
+	width: 90%;
+	margin: 0px auto 0px auto;
+	position: relative;
+	border: 0px solid black;
+}
+
+h1 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 35px;
+	line-height: 0.9em;
+	border: 0px solid black;
+	margin: 0px;
+	color: #3c3c3c;
+	text-align: center;
+}
+
+h1 br {
+	display: none;
+}
+
+
+h2 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 30px;
+	letter-spacing: 0.04em;
+	border: 0px solid black;
+	margin: 0px;
+	padding-top: 98px;
+	text-align: center;
+}
+
+.offe {
+	margin-top: 60px;
+	border: 0px solid black;
+	margin-left: 0px;
+	float: left;
+}
+
+.offertext {
+	font-size: 16px;
+	width: 100%;
+	margin-top: 22px;
+	margin-bottom: 50px;
+	line-height: 1.5em;
+	border: 0px solid black;
+	text-align: center;
+
+}
+
+.offertext br {
+	display: none;
+}
+
+.navigation, .navigation2, .navigation3 {
+	display: none;
+}
+
+#header2 {
+	display: none;
+}
+
+.arrow {
+	display: none;
+}
+
+.bottom {
+		display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.main_image {
+	position: absolute;
+	left: -100px;
+	top: 290px;
+	z-index: -1;
+	opacity: 0.3;
+	display: none;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+.hamburger-menu {
+	display: block;
+}
+
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+
+}
+
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;  top: 0;
+	right: -100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #3d3d3d;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  z-index: 3;
+}
+
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  
+}
+.menu__item:hover {
+  background-color: #4d4d4d;
+}
+
+.menu__item2 {
+	display: block;
+  padding: 12px 24px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+	color: #727272;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+.bg1 {
+	position: absolute;
+	left: -280px;
+	top: -200px;
+	z-index: -2;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+
+
+.centr {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+
+.footer-block {
+	display: none;
+}
+
+.footer-block23 {
+	padding-top: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: block;
+	padding-bottom: 10px;
+
+}
+
+.footer-block24 {
+	width: 230px;
+	padding-top: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer-block24 a {
+	line-height: 2em;
+	text-decoration: none;
+	color: #e5e5e5;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.footer-block243 a:hover {
+	line-height: 2em;
+	text-decoration: underline;
+	color: #e5e5e5;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.footer-block24 div {
+	color: #ababab;
+	line-height: 2em;
+
+
+}
+
+
+.footer-block33 {
+	width: 200px;
+	padding-top: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer-text22 {
+	padding-top: 20px;
+	color: #ababab;
+	line-height: 2em;
+	text-align: center;
+}
+
+.space {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0;
+	        flex: 0;
+}
+
+.not-active {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+}
+
+#footer {
+	height: 100%;
+	background: #28282c;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+
+}
+
+#screen_two {
+	margin-top: 0px;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2', sans-serif;
+	line-height: 1.5em;
+	height: 100%;
+	margin-bottom: 0px;
+}
+
+#screen_two img {
+	width: 50%;
+	height: auto;
+	margin-bottom: 58px;
+	left: 25%;
+}
+
+#screen_three {
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2', sans-serif;
+	line-height: 1.5em;
+	height: 100%;
+	margin-bottom: 0px;
+}
+
+#screen_three img {
+	position: relative;
+	left: 25%;
+	margin-bottom: 58px;
+	width: 50%;
+}
+
+.screen_two-text {
+	width: 100%;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2', sans-serif;
+	line-height: 1.5em;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 58px;
+}
+
+.screen_two-text2 {
+	width: 100%;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2', sans-serif;
+	line-height: 1.5em;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 58px;
+}
+
+.screen_two-text3 {
+	width: 100%;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2', sans-serif;
+	line-height: 1.5em;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 58px;
+}
+
+.screen_two-text4 {
+	width: 100%;
+	font-size: 20px;
+	color: #3c3c3c;
+	font-family: 'Futura PT2', sans-serif;
+	line-height: 1.5em;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 58px;
+}
+
+.screen_two-block {
+	display: block;
+	width: 100%;
+	line-height: 1.8em;
+	
+}
+
+
+.gruz {
+	float: none;
+	text-align: center;
+	margin-left: 0px;
+
+}
+
+.gruz2 {
+	float: none;
+	margin-left: 0px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.gruz3 {
+	float: none;
+	margin-left: 0px;
+	text-align: center;
+
+}
+
+.gruz4 {
+	float: none;
+	margin-top: 30px;
+	text-align: center;
+} 
+
+
+
+.tcena {
+	float: none;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 0px;
+
+	
+}
+
+.tcena3 {
+	float: none;
+	margin-right: 0px;
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+.tcena4 {
+	float: none;
+	margin-right: 0px;
+	margin-top: 30px;
+	text-align: center;
+
+
+	
+}
+
+.tcena2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+
+
+.centr {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 40px;
+}
+
+.centr2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 40px;
+}
+
 }

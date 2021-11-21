@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Philosopher:700&display=swap&subset=cyrillic');
+
 @font-face {
     font-family: 'Futura PT3';
     src: url('../fonts/FuturaPT-Medium.eot');
@@ -95,6 +97,7 @@ img {
 	transition: all 0.3s;
 	padding-left: 0px;
 	font-weight: 500;
+	white-space: nowrap;
 
 }
 
@@ -201,7 +204,6 @@ img {
 	margin-right: 35px;
 	text-decoration: none;
 	color: #3c3c3c;
-	font-weight: ;
 	font-size: 14px;
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
@@ -470,7 +472,7 @@ h3 {
 
 .tcena4 {
 	float: right;
-	margin-right: 147px;
+	margin-right: 5px;
 	margin-top:30px;
 
 
@@ -682,6 +684,7 @@ h3 {
 	padding-left: 0px;
 	font-weight: 400;
 	line-height: 2em;
+	white-space: nowrap;
 
 }
 
@@ -1025,6 +1028,9 @@ h1 {
 	text-align: center;
 }
 
+h1 br {
+	display: none;
+}
 
 h2 {
 	font-family: 'Philosopher', sans-serif;
@@ -1052,6 +1058,10 @@ h2 {
 	border: 0px solid black;
 	text-align: center;
 
+}
+
+.offertext br {
+	display: none;
 }
 
 
@@ -1466,7 +1476,7 @@ h2 {
 
 #screen_three img {
 	position: relative;
-	left: 24%;
+	left: 25%;
 	margin-bottom: 58px;
 	width: 50%;
 	height: auto;
@@ -1483,9 +1493,9 @@ h2 {
 
 #screen_four img {
 	position: relative;
-	left: 0px;
+	left: 18%;
 	margin-bottom: 58px;
-	width: 100%;
+	width: 60%;
 	height: auto;
 }
 
@@ -1500,9 +1510,9 @@ h2 {
 
 #gazel img {
 	position: relative;
-	left: 0px;
+	left: 15%;
 	margin-bottom: 58px;
-	width: 100%;
+	width: 65%;
 	height: auto;
 }
 
@@ -1517,9 +1527,9 @@ h2 {
 
 #screen_five img {
 	position: relative;
-	left: 0px;
+	left: 23%;
 	margin-bottom: 58px;
-	width: 100%;
+	width: 55%;
 	height: auto;
 }
 
@@ -1534,9 +1544,9 @@ h2 {
 
 #compressor img {
 	position: relative;
-	left: 0px;
+	left: 19%;
 	margin-bottom: 58px;
-	width: 100%;
+	width: 55%;
 	height: auto;
 }
 
@@ -1551,9 +1561,9 @@ h2 {
 
 #svarka img {
 	position: relative;
-	left: 0px;
+	left: 30%;
 	margin-bottom: 58px;
-	width: 100%;
+	width: 35%;
 	height: auto;
 }
 

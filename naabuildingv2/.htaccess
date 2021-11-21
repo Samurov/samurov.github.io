@@ -3,3 +3,6 @@ ErrorDocument 404 https://fop-nikolaychuk.com/404.html
 
 RewriteCond %{HTTP_HOST} ^www.fop-nikolaychuk\.com$ [NC]
 RewriteRule ^(.*)$ https://fop-nikolaychuk.com/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://fop-nikolaychuk.com/ [R=301,L]
